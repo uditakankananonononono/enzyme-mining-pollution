@@ -1,0 +1,11 @@
+{
+  "reference_set": "data/reference_set.csv (UniProtKB + NCBI protein, fetched 2026-09-23)",
+  "negative_set": "data/negative_set.csv (UniProtKB, fetched 2026-09-23)",
+  "uniprot_api": "https://rest.uniprot.org/uniprotkb/",
+  "ncbi_eutils": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+  "mining_corpus_planned": [
+    "https://www.ebi.ac.uk/metagenomics/api/v1/ (MGnify)",
+    "https://rest.uniprot.org/uniref + UniMES (metagenomic environmental sequences)"
+  ],
+  "decoy_proteomes_planned": "E. coli K-12 + B. subtilis reference proteomes (UniProt proteomes API)"
+}
