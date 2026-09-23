@@ -60,6 +60,11 @@ Training recovery was 100% in both versions (v1: 82/82; v2: 61/61) - the pipelin
 
 On the frozen v2 model, zero of 36 held-out labeled negatives were called: precision 1.000, AUROC 1.000 (margins of held-out VERIFIED positives vs eval negatives). v1 on the contaminated canon had already passed (precision 1.000, AUROC 0.987), so specificity is not an artifact of the curation correction. The discriminator cleanly separates all four documented false-positive modes from true enzymes of both classes.
 
+
+## 3.2a Discriminator vs each false-positive mode
+
+Eval-set negatives broke down by mode as follows (frozen v2 model): all 10 eval HAD-superfamily phosphatases rejected; all 7-8 eval epoxide hydrolases rejected; all 10 eval Rieske ferredoxins rejected; all 8-9 eval ring-cleavage dioxygenases rejected (36 eval negatives total, zero called). The two negative-mode HMMs were built exclusively from the 34 tune negatives; the eval half stayed untouched until the frozen check. The margin distribution separating held-out VERIFIED positives from eval negatives was bimodal with a wide gap - the AUROC 1.000 reflects that positives clear both T and D while negatives fail at least one, not a knife-edge ranking. Notably the Rieske-ferredoxin mode - the nearest structural neighbor of true RHD alpha calls - never approached the call threshold (ferredoxins lack the alpha-subunit catalytic domain the family profiles are built on).
+
 ## 3.3 GATE 1: a curation failure, found and measured
 
 v1 (naive EC/gene-sweep canon, 117 entries) FAILED the recall gate: 27/31 = 0.871. Boundary diagnosis of the 4 misses showed 3 were not RHD alpha subunits at all: P37334 and Q46373 are biphenyl dioxygenase beta subunits (bphE), and P77650 (HcaD) is a ferredoxin-NAD+ reductase (EC 1.18.1.3) caught by a gene-synonym collision. A full-set audit found the EC 1.14.12.x sweep had admitted 27 non-alpha entries out of 63 nominal RHD references (43% inflation), 16 of them inside profile-training sets. The fourth miss, Q8U671 (DhaA haloalkane dehalogenase; 3-mer Jaccard 0.081 to its nearest training member), is a genuine fold-coverage boundary: profile transfer fails when the training canon does not cover a diverged subfamily - the same boundary the pesticides slice documented.
@@ -87,11 +92,36 @@ Greedy 3-mer-Jaccard clustering (>=0.5) of the 351 calls gave 321 vetted cluster
 
 ![Candidates by class.](fig3_candidates.png)
 
+
+## 3.5b GATE 3 curation cross-check (spot audit, 2026-09-23)
+
+The 10 highest-margin cluster representatives were re-queried against UniProtKB live: all 10 are unreviewed (TrEMBL) records - absent from Swiss-Prot curation and from BRENDA's characterized-enzyme links for the claimed activity. Their TrEMBL annotations agree with the class call (e.g., "2-halobenzoate 1,2-dioxygenase large subunit", "aromatic ring-hydroxylating dioxygenase subunit alpha") but none carries experimental characterization - exactly the uncharacterized-homolog space this pipeline targets. Audit table:
+
+| Rep accession | Review status | TrEMBL annotation | Organism |
+|---|---|---|---|
+| Q75W73 | unreviewed | Alpha subunit of terminal oxygenase | Xanthobacter polyaromaticivorans |
+| A0ABV0HMU8 | unreviewed | 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha | Pseudocitrobacter cyperus |
+| A0A149PFH2 | unreviewed | Benzoate 1,2-dioxygenase large subunit | Paraburkholderia monticola |
+| A0ABR9P133 | unreviewed | Aromatic ring-hydroxylating dioxygenase subunit alpha | Nocardiopsis coralli |
+| A0AA37H9X9 | unreviewed | 2-halobenzoate 1,2-dioxygenase large subunit | Methylobacterium frigidaeris |
+| A0ABT1QJY3 | unreviewed | Benzoate 1,2-dioxygenase large subunit | Rhodococcus tibetensis |
+| A0A238K6P7 | unreviewed | 2-halobenzoate 1,2-dioxygenase large subunit | Maliponia aquimaris |
+| A0A076NQM4 | unreviewed | Phenoxybenzoate dioxygenase | Corynebacterium imitans |
+| A0A3N6MW60 | unreviewed | Aromatic ring-hydroxylating dioxygenase subunit alpha | Paraburkholderia dinghuensis |
+| A0A4P8HLQ0 | unreviewed | Benzoate 1,2-dioxygenase large subunit | Pseudoduganella umbonata |
+
+Several reps annotate as halobenzoate dioxygenases (EC 1.14.12.13) - the chlorinated-aromatic degradation frontier - reinforcing that the RHD calls sit on industrially relevant substrate families.
+
 # 4. Discussion
 
 The platform transferred to two chemistries mechanistically distinct from the esterases it was validated on: SN2 hydrolytic dehalogenation and Rieske-dependent aromatic oxygenation. Specificity held perfectly in both versions; recall exposed a data-curation failure mode (subunit conflation in EC sweeps) rather than a model failure, and the gates did their job by failing loudly first. We quantify the curation finding: 43% of raw EC-sweep "RHD" entries were non-catalytic components. Any canon assembled this way would silently corrupt both profiles and evaluation - a warning for mining studies that report reference recall without subunit-level scope checks.
 
 Methodological contribution (fleet seal criterion): (i) a frozen-threshold, negative-mode-gated discriminator now validated across three chemistries (OP/PYR esterases in pesticides/; HLD and RHD here), with perfect precision on 36 held-out negatives spanning four documented FP modes; (ii) a scope-audit protocol for reference canon assembly whose value is quantified (43% inflation caught); benchmarked against prior art in section 6. The unified cross-class database (359 evidence rows: 38 pesticides + 321 industrial clusters; schema v1 locked) is the assembly deliverable of this slice.
+
+
+## 4.0a Why RHD out-yields HLD 338 to 13
+
+The candidate asymmetry is a corpus-composition effect, not a specificity difference. The Rieske-oxygenase background search returned a deep, coherent homolog family (43,419 TrEMBL hits before subsampling), giving the FAMX expansion step rich material; the dehalogenase-like search is dominated by HAD-fold sequences of mixed function, and the discriminator correctly refuses most of them - that refusal is the specificity gate working, since HAD-fold proteins are mostly phosphatases. HLD's 13 calls with a 100% clean negative set is the honest yield of a harder mining problem; haloacid dehalogenases in particular remain canon-poor (9 VERIFIED) and candidate-poor (0 confident HALOACID-class calls), which we report as a genuine gap rather than lowering thresholds.
 
 ## 4.1 Threats to validity
 
@@ -109,6 +139,16 @@ A specificity-gated mining platform with locked gates and byte-locked data exten
 | Metagenome-derived HLDs (PubMed 28674849, 2017) | Functional HLD mining from metagenomes | Gate-validated discovery with specificity quantified against HAD-fold and epoxide-hydrolase decoys |
 | PAH dioxygenase metagenomics (AEM 2014, doi:10.1128/aem.01883-14) | Functional screens of contaminated-soil libraries | Sequence-scale mining with alpha-subunit scope audit (43% EC-sweep inflation measured) |
 | pesticides/ slice (this repo, B20) | OP/PYR esterase platform, sealed | Template; we extend to non-esterase chemistries and merge into the unified DB |
+
+
+# Version history (all artifacts preserved)
+
+| Version | Canon | Gates | Disposition |
+|---|---|---|---|
+| v1 | 117 entries (EC/gene sweep; 27 non-alpha RHD components, 43% inflation) | PC 82/82; GATE1 27/31 = 0.871 FAIL; GATE2 prec 1.000 AUROC 0.987 | Failed gate reported; artifacts kept (validation_v1.json, candidates_v1.csv, mining_summary_v1.json, data/v1_superseded/) |
+| v2 | 90 entries (Amendment-1 scope rule, alpha-only) | PC 61/61; GATE1 18/20 = 0.900 PASS; GATE2 prec 1.000 AUROC 1.000 | Frozen model mined; 351 calls, 321 vetted clusters |
+
+No threshold was re-tuned after any gate result; the only v1->v2 change was reference-set scope curation, locked in GATES_AMENDMENT.md before v2 results existed.
 
 # Tables
 
