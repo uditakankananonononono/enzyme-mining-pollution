@@ -1,0 +1,8 @@
+body { font-family: "DejaVu Serif", serif; font-size: 12pt; margin: 2.2cm; line-height: 1.45; }
+h1 { font-size: 16pt; margin-top: 1.2em; }
+h2 { font-size: 13pt; }
+img { display: block; margin: 0.8em auto; max-width: 95%; }
+table { border-collapse: collapse; margin: 0.8em auto; font-size: 10pt; }
+th, td { border: 1px solid #666; padding: 4px 8px; }
+.figpage { page-break-before: always; }
+
