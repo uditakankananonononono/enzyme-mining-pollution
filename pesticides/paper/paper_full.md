@@ -22,6 +22,8 @@ Existing resources do not close this gap. Targeted metagenome mining studies (e.
 
 We assembled a reference set of 76 experimentally characterized pesticide-degrading enzymes: 39 organophosphate-active and 37 pyrethroid-active. Each entry carries an accession, a functional class, a sub-family label, a tier, and an evidence URL. The tier field records evidence strength: 47 entries are VERIFIED (direct biochemical demonstration of activity against a pesticide substrate in the cited source) and 29 are THIN (activity reported but with weaker or indirect characterization, e.g. screen-level annotation or homology-based assignment in the primary report). Entries resolvable only through NCBI Protein (Sys410, Est3385, Pye3) are included with their NCBI accessions. Four enzymes named in the review literature (Est804, Cest2923, EstSt7, PytY) could not be resolved to any UniProt or NCBI Protein record and are reported as missing rather than padded with proxies.
 
+<div class="figpage"></div>
+
 ![Fig. 4. The reference canon: class, family, and evidence-tier composition of the 76-enzyme reference set.](../results/figures/fig4_reference_set.png) All gates are measured on the VERIFIED tier; the THIN tier is retained for mining profile construction where a family would otherwise lack members.
 
 
@@ -98,9 +100,13 @@ Before any gate measurement, the frozen v4 platform was required to recover ever
 
 The specificity discriminator was evaluated on the 31 held-out evaluation negatives under all four architectures. Precision is 1.0 in every version - no evaluation negative is called a pesticide-degrading enzyme - and AUROC is 0.906-0.916 (v4: 0.906). GATE 2 passes in every version (Fig. 1, Fig. 3).
 
+<div class="figpage"></div>
+
 ![Fig. 1. Specificity discriminator score separation: true held-out enzymes vs evaluation negatives under the frozen v4 platform.](../results/figures/fig1_discriminator.png)
 
 The evaluation surfaced one intrinsic, documented collision: the *E. coli* YeiG esterase (B6VG94) scores bit-identically to the true pyrethroid hydrolase Pye3 (ACJ07038.1), 306.4 bits under the same family profile (Fig. 5).
+
+<div class="figpage"></div>
 
 ![Fig. 5. The YeiG/Pye3 collision: bit-identical family scores (306.4 bits under the frozen v4 model) resolved only by negative-HMM margin.](../results/figures/fig5_collision.png) YeiG is a genuine close homolog, and no sequence-only scoring scheme can separate it from Pye3. The platform resolves the collision through the negative-HMM margin: YeiG's score against NEG:EST cancels its family score, while Pye3's margin survives. We report this pair explicitly because it marks the edge of what sequence discrimination can do: separation is achieved by calibrated margin against a labeled negative profile, not by family score alone.
 
@@ -110,9 +116,13 @@ Canon-wide held-out recall is 0.692 (9/13) under v4, and fails under every archi
 
 The failure is not noise. For each held-out enzyme we measured 3-mer Jaccard similarity to its nearest training-set enzyme (Fig. 2).
 
+<div class="figpage"></div>
+
 ![Fig. 2. The recall boundary: 3-mer Jaccard similarity of each held-out enzyme to its nearest training relative; all misses lie below 0.081, all recoveries at or above 0.277.](../results/figures/fig2_recall_boundary.png) The nine recovered enzymes have Jaccard 0.277-1.0 to a training relative; the four missed enzymes - A4ZYB5 (PTE family, 0.066), P16854 (insect carboxylesterase, 0.081), AFE88176.1 (bacterial carboxylesterase, 0.067), and H2ER27 (bacterial carboxylesterase, 0.051) - are fold-orphans: no characterized training enzyme shares a meaningful sequence neighborhood with them. Per-fold recall - recall over held-out enzymes that have any training-set relative - is 9/9. The boundary is sharp (no held-out enzyme sits between 0.081 and 0.277) and stable across all four designs, including the UniRef90-expanded v3, whose additional recall failures show that remote-homolog expansion can hurt as well as help when it dilutes family signal.
 
 The version history (Table 1; Fig. 3)
+
+<div class="figpage"></div>
 
 ![Fig. 3. Version history v1-v4: recall and specificity across the four pipeline architectures.](../results/figures/fig3_versions.png) is itself evidence. Three independent redesigns moved canon-wide recall by at most four points and once made it substantially worse; the misses in every version are fold-orphans. We therefore interpret the result as a property of the characterized canon - pesticide hydrolase activity has evolved convergently across folds that share almost no sequence signal - and not as a fixable defect of one pipeline.
 
@@ -133,6 +143,11 @@ Mining v1, run on the smaller corpus before the background-exclusion fix, produc
 
 All 45 v2 candidates were checked against GATE 3 (UniProt annotation fetch, pesticide-annotation screen, 3-mer Jaccard novelty proxy, and cluster dedupe at Jaccard > 0.9). Verdicts: 43 NOVEL (Jaccard < 0.5 to every VERIFIED canon member, no pesticide-related annotation in UniProt), 2 HOMOLOG-OF-CANON (Jaccard 0.5-0.99, reported as homologs rather than novel), and - confirming the v1 leak is closed - zero CANON-DUPLICATE. After cluster dedupe, the vetted candidate database contains 38 representative candidates (pesticides/results/vetted_candidates_v2.csv), each with source, profile, score, negative-margin, GXSXG motif presence, max Jaccard vs canon, cluster size, and novelty verdict.
 
+
+## 3.5a Candidate spotlights
+
+The top of the vetted list is dominated by the neighborhood the discriminator was built to police, which is the expected shape of an honest result. The two highest-margin candidates (D5G3D4_HELAM, S4WFZ6_HELAM; margins 1556.9 and 1547.8 bits) are insect carboxylesterases from *Helicoverpa armigera*, annotated only as "Carboxylesterase" in UniProt - the species complex whose resistance esterases anchor the insect-CE family - with Jaccard 0.244 and 0.238 to the nearest VERIFIED canon member: close enough to the family to pass the profile, distant enough to clear novelty. The third-ranked candidate (O46421, EST1_MACFA, a macaque carboxylesterase) is verdicted HOMOLOG-OF-CANON (Jaccard 0.688) and reported as such rather than as novel - the novelty gate doing visible work. The bulk of the list is mammalian carboxylesterases of the MAMM_CES family (margins 423-1158 bits), consistent with that family's dense recruitment in v4 self-expansion (38 recruits; Table in section 2.4) and with the GATE 2 finding that this neighborhood is where discrimination is hardest. No MAG-derived candidate exists to spotlight; that absence is itself the mining result discussed in section 3.4.
+
 # 4. Discussion
 
 The amended-bar claim of this work is deliberately narrow: a specificity-gated mining platform is validated; profile-based recall is bounded by the fold coverage of the characterized canon, and that boundary is now quantified. For pesticide-enzyme mining specifically, this means profile methods will reliably recover new members of known hydrolase families - the per-fold regime where recall is 9/9 - and will silently miss enzymes that, like Sys410 (family V lipase) beside PytH (alpha/beta-hydrolase), degrade the same chemistry from a different fold. Any candidate database built this way should carry that caveat, and ours does.
@@ -148,9 +163,29 @@ The boundary suggests a concrete protocol for any profile-mining effort over enz
 
 Limitations. All candidates are computational predictions; none is biochemically validated, and we do not claim otherwise. The MAG corpus, while expanded to 66 proteomes across four catalogues, is a thin sample of pesticide-exposed metagenomes, and the rhizosphere catalogues in particular may be impoverished for hydrolase diversity - mining v1 recovered zero candidates from 23,989 barley-rhizosphere MAG proteins, a true null we report rather than re-fish. Structure-based vetting (e.g. ColabFold active-site checks) is reserved for top candidates in future work.
 
+
+## 4.2 Threats to validity
+
+Three threats qualify the claims. First, the recall boundary is measured on a 13-enzyme held-out set; the sharp gap between 0.081 and 0.277 could blur with a larger canon, though the four-design stability argues it will not move much. Second, GATE 2's evaluation negatives number 31 and cover two documented false-positive modes; an undocumented third mode is unpoliced by construction. Third, the 3-mer Jaccard novelty proxy is a proxy: it underestimates identity for rearranged sequences and overestimates it for compositionally biased ones, and the <80%-identity claim it backs should be re-checked with alignment before any candidate is prioritized for synthesis. The missing-canon report (Est804, Cest2923, EstSt7, PytY unresolved in public databases) is a fourth, smaller threat: if these enzymes exist under other accessions, the canon - and the measured boundary - shifts slightly.
+
 # 5. Conclusion
 
 We built and froze a profile-HMM platform for mining organophosphate and pyrethroid hydrolases, locked its success gates before outcomes, and report the result without re-fishing: specificity passes robustly against the documented false-positive modes (precision 1.0, AUROC ~0.91); canon-wide recall fails at 0.692 because four of thirteen held-out enzymes are fold-orphans, while per-fold recall is 9/9. The mined candidate database is released with the coverage caveat attached. The quantified recall boundary - not the candidate list - is the result we expect to be most reusable.
+
+
+# 6. Related work
+
+Three lines of prior work meet here, and none covers the gap this paper addresses. **Curated activity databases** - PAZy for plastics-active enzymes (Buchholz et al. 2022) and PCycDB for phosphorus-cycling genes (Zeng et al. 2022) - aggregate characterized enzymes and support lookup, but they are curation resources: they do not mine, and they do not validate a mining platform's recall or specificity against locked gates. **Targeted metagenome mining** (Robinson et al. 2023) demonstrates that profile- and homology-driven recovery of biocatalysts from metagenomes works for specific substrate classes, but validation is post hoc - the recovered enzymes are assayed, and the denominator (what the method cannot recover) is never measured. **Functional screens** (Sys410, Pye3, EstP, and the esterase-screen literature generally) characterize one family at a time and, as their own hit rates show, are dominated by false positives at the screen stage - precisely the failure mode GATE 2 is built against. Table 4 summarizes.
+
+**Table 4. Prior-art positioning.**
+
+| resource | type | mines metagenomes? | locked recall gate? | specificity gate vs documented FP modes? |
+|---|---|---|---|---|
+| PAZy | curation DB | no | no | no |
+| PCycDB | curation DB / gene catalogue | no | no | no |
+| Robinson et al. 2023 | targeted mining | yes | no (post-hoc assays) | no |
+| functional screens (Sys410, Pye3, EstP) | single-family screens | yes (clone-level) | no | screen-level only (1-in-3 to 1-in-6 true) |
+| this work | mining platform | yes | yes (locked pre-outcome; fails honestly at 0.692) | yes (precision 1.0 vs PLL + generic-esterase modes) |
 
 # Tables
 
@@ -396,15 +431,15 @@ Representative candidate per cluster, sorted by discrimination margin. Full fiel
 
 # References
 
-Afriat L, Roodveldt C, Manco G, Tawfik DS. The latent promiscuity of newly identified microbial lactonases is linked to a recently diverged phosphotriesterase. Biochemistry 2006.
-Horne I, Sutherland TD, Harcourt RL, Russell RJ, Oakeshott JG. Identification of an opd (organophosphate degradation) gene in an Agrobacterium isolate. Appl Environ Microbiol 2002 (PMC126808).
-Singh BK. Organophosphorus-degrading bacteria: ecology and industrial applications. Nat Rev Microbiol 2009 (nrmicro2050).
-Scott C et al. The enzymatic basis for pesticide bioremediation. Indian J Microbiol 2008.
-Wang B et al. Cloning of a novel pyrethroid-hydrolyzing carboxylesterase gene from Sphingobium sp. JZ-1 (PytH).
-Wu P et al. Biodegradation of pyrethroids by Klebsiella (EstP).
-A novel pyrethroid-hydrolyzing enzyme from metagenomic library (Sys410). Microb Cell Fact 2012;11:33 (10.1186/1475-2859-11-33).
-Pye3, a pyrethroid-hydrolyzing esterase. Microb Cell Fact 2008;7:38 (10.1186/1475-2859-7-38).
-Est3385, pyrethroid hydrolase (NCBI AND66123.1).
-Robinson SL et al. Targeted metagenome mining for biocatalysts. 2023 (PMC10781932).
-Buchholz PCF et al. PAZy: the plastics-active enzymes database. 2022 (pazy.eu).
-Zeng Q et al. PCycDB: a phosphorus cycling gene database. 2022 (10.1186/s40168-022-01292-1).
+1. Afriat L, Roodveldt C, Manco G, Tawfik DS. The latent promiscuity of newly identified microbial lactonases is linked to a recently diverged phosphotriesterase. Biochemistry 2006;45:13677-86.
+2. Horne I, Sutherland TD, Harcourt RL, Russell RJ, Oakeshott JG. Identification of an opd (organophosphate degradation) gene in an Agrobacterium isolate. Appl Environ Microbiol 2002;68:3371-6 (PMC126808).
+3. Singh BK. Organophosphorus-degrading bacteria: ecology and industrial applications. Nat Rev Microbiol 2009;7:156-64 (nrmicro2050).
+4. Scott C, Pandey G, Hartley CJ, et al. The enzymatic basis for pesticide bioremediation. Indian J Microbiol 2008;48:65-79.
+5. Wang B, Guo P, Hang B, Li L, He J, Li S. Cloning of a novel pyrethroid-hydrolyzing carboxylesterase gene from Sphingobium sp. JZ-1 and characterization of the gene product. Appl Environ Microbiol 2009 (PytH).
+6. Wu P, Liu Y, Wang L, et al. Biodegradation of pyrethroids by Klebsiella (EstP).
+7. A novel pyrethroid-hydrolyzing enzyme from a metagenomic library (Sys410). Microb Cell Fact 2012;11:33 (10.1186/1475-2859-11-33).
+8. Pye3, a pyrethroid-hydrolyzing esterase from a metagenomic library. Microb Cell Fact 2008;7:38 (10.1186/1475-2859-7-38).
+9. Est3385, pyrethroid hydrolase (NCBI Protein AND66123.1).
+10. Robinson SL et al. Targeted metagenome mining for biocatalysts. 2023 (PMC10781932).
+11. Buchholz PCF et al. PAZy: the plastics-active enzymes database. 2022 (pazy.eu).
+12. Zeng Q et al. PCycDB: a phosphorus cycling gene database. 2022 (10.1186/s40168-022-01292-1).

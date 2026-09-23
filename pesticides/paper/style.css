@@ -4,3 +4,4 @@ h2 { font-size: 13pt; }
 img { display: block; margin: 0.8em auto; max-width: 95%; }
 table { border-collapse: collapse; margin: 0.8em auto; font-size: 10pt; }
 th, td { border: 1px solid #666; padding: 4px 8px; }
+.figpage { page-break-before: always; }
