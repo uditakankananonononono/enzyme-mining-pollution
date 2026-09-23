@@ -77,7 +77,7 @@ Most OP families recruit zero background sequences above their frozen threshold 
 
 ## 2.5 Corpora
 
-The validation corpus (24,240 sequences) comprises the *E. coli* K-12 and *B. subtilis* 168 proteomes as realistic decoys and UniProtKB background samples from amidohydrolase, esterase, and eukaryotic carboxylesterase families - the families most likely to collide with pesticide hydrolases. The mining corpus adds 66 metagenome-assembled-genome proteomes downloaded from MGnify (soil-v1-0, 33; maize-rhizosphere-v1-0, 14; barley-rhizosphere, 8; tomato-rhizosphere-v1-0, 3, plus additional stragglers; full catalogue accessions in pesticides/data/corpus/mgnify/provenance_expanded.tsv). For mining v2, any background sequence whose UniProt accession appears in the labeled (reference or negative) set was excluded, closing a canon-duplicate leak identified in mining v1. All data are public; all downloads are recorded with checksums in pesticides/data/MANIFEST.sha256.
+The validation corpus (24,240 sequences) comprises the *E. coli* K-12 and *B. subtilis* 168 proteomes as realistic decoys and UniProtKB background samples from amidohydrolase, esterase, and eukaryotic carboxylesterase families - the families most likely to collide with pesticide hydrolases. The mining corpus adds 66 metagenome-assembled-genome proteomes downloaded from MGnify (soil-v1-0, 33; maize-rhizosphere-v1-0, 19; barley-rhizosphere-v2-0, 8; tomato-rhizosphere-v1-0, 6; full catalogue accessions in pesticides/data/corpus/mgnify/provenance_expanded.tsv). For mining v2, any background sequence whose UniProt accession appears in the labeled (reference or negative) set was excluded, closing a canon-duplicate leak identified in mining v1. All data are public; all downloads are recorded with checksums in pesticides/data/MANIFEST.sha256.
 
 ## 2.6 Compute and reproducibility
 
@@ -100,9 +100,9 @@ The specificity discriminator was evaluated on the 31 held-out evaluation negati
 
 ![Fig. 1. Specificity discriminator score separation: true held-out enzymes vs evaluation negatives under the frozen v4 platform.](../results/figures/fig1_discriminator.png)
 
-The evaluation surfaced one intrinsic, documented collision: the *E. coli* YeiG esterase (B6VG94) scores bit-identically to the true pyrethroid hydrolase Pye3 (ACJ07038.1), 281.7 bits under the same family profile (Fig. 5).
+The evaluation surfaced one intrinsic, documented collision: the *E. coli* YeiG esterase (B6VG94) scores bit-identically to the true pyrethroid hydrolase Pye3 (ACJ07038.1), 306.4 bits under the same family profile (Fig. 5).
 
-![Fig. 5. The YeiG/Pye3 collision: bit-identical family scores (281.7 bits) resolved only by negative-HMM margin.](../results/figures/fig5_collision.png) YeiG is a genuine close homolog, and no sequence-only scoring scheme can separate it from Pye3. The platform resolves the collision through the negative-HMM margin: YeiG's score against NEG:EST cancels its family score, while Pye3's margin survives. We report this pair explicitly because it marks the edge of what sequence discrimination can do: separation is achieved by calibrated margin against a labeled negative profile, not by family score alone.
+![Fig. 5. The YeiG/Pye3 collision: bit-identical family scores (306.4 bits under the frozen v4 model) resolved only by negative-HMM margin.](../results/figures/fig5_collision.png) YeiG is a genuine close homolog, and no sequence-only scoring scheme can separate it from Pye3. The platform resolves the collision through the negative-HMM margin: YeiG's score against NEG:EST cancels its family score, while Pye3's margin survives. We report this pair explicitly because it marks the edge of what sequence discrimination can do: separation is achieved by calibrated margin against a labeled negative profile, not by family score alone.
 
 ## 3.3 GATE 1: canon-wide recall fails, and the failure is a measurable boundary
 
@@ -144,7 +144,7 @@ The YeiG/Pye3 collision carries the mirror-image lesson for specificity: some fa
 
 ## 4.1 Guidance for practitioners
 
-The boundary suggests a concrete protocol for any profile-mining effort over enzyme canon. First, before trusting a recall number, measure each held-out canon's 3-mer Jaccard (or equivalent) to the training set; the fold-orphan fraction bounds achievable recall independently of pipeline quality. Second, treat specificity validation as a separate gate with its own labeled negatives drawn from documented false-positive modes; family-score thresholds alone cannot resolve collisions like YeiG/Pye3. Third, freeze thresholds from tuning data before touching evaluation data, and keep the version history - the three failing designs here are what make the boundary claim credible. Fourth, report true nulls: two independent null recoveries from 184k MAG proteins are evidence about hydrolase abundance in these catalogues, not failed runs.
+The boundary suggests a concrete protocol for any profile-mining effort over enzyme canon. First, before trusting a recall number, measure each held-out canon's 3-mer Jaccard (or equivalent) to the training set; the fold-orphan fraction bounds achievable recall independently of pipeline quality. Second, treat specificity validation as a separate gate with its own labeled negatives drawn from documented false-positive modes; family-score thresholds alone cannot resolve collisions like YeiG/Pye3. Third, freeze thresholds from tuning data before touching evaluation data, and keep the version history - the three failing designs here are what make the boundary claim credible. Fourth, report true nulls: two independent null recoveries across 66 MAG proteomes (160,368 proteins, four catalogues) are evidence about hydrolase abundance in these catalogues, not failed runs.
 
 Limitations. All candidates are computational predictions; none is biochemically validated, and we do not claim otherwise. The MAG corpus, while expanded to 66 proteomes across four catalogues, is a thin sample of pesticide-exposed metagenomes, and the rhizosphere catalogues in particular may be impoverished for hydrolase diversity - mining v1 recovered zero candidates from 23,989 barley-rhizosphere MAG proteins, a true null we report rather than re-fish. Structure-based vetting (e.g. ColabFold active-site checks) is reserved for top candidates in future work.
 
@@ -178,10 +178,11 @@ We built and froze a profile-HMM platform for mining organophosphate and pyrethr
 
 | MGnify catalogue | MAG proteomes | proteins |
 |---|---|---|
-| maize-rhizosphere-v1-0 | 23 | 53,471 |
-| soil-v1-0 | 35 | 81,420 |
-| tomato-rhizosphere-v1-0 | 8 | 18,173 |
-| **total (expanded set)** | **66** | **153,064** |
+| barley-rhizosphere-v2-0 | 8 | 23,989 |
+| maize-rhizosphere-v1-0 | 19 | 46,275 |
+| soil-v1-0 | 33 | 76,689 |
+| tomato-rhizosphere-v1-0 | 6 | 13,415 |
+| **total** | **66** | **160,368** |
 
 **Table 1. Version history (all designs evaluated on the frozen split; v1 predates split v2 and is shown on its original split).**
 
