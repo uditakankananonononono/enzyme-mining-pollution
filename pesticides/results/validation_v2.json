@@ -1,0 +1,55 @@
+{
+  "design": "v2 per-family T=0.8*min(train own), D=2nd-max tune-neg delta + 10 (<=1 tune FP allowance, disclosed)",
+  "frozen_T": {
+    "OP:PTE": 378.63,
+    "OP:MPH": 618.24,
+    "PYR:BACT_CE": 150.63,
+    "PYR:INSECT_CE": 849.06,
+    "PYR:MAMM_CES": 787.15,
+    "OP:PON": 554.04,
+    "OP:INSECT_CE": 1081.92,
+    "OP:OPAA": 835.35,
+    "OP:DFPASE": 599.55
+  },
+  "frozen_D": {
+    "OP:PTE": 0.0,
+    "OP:MPH": 0.0,
+    "PYR:BACT_CE": 0.0,
+    "PYR:INSECT_CE": 0.0,
+    "PYR:MAMM_CES": 0.0,
+    "OP:PON": 0.0,
+    "OP:INSECT_CE": 0.0,
+    "OP:OPAA": 0.0,
+    "OP:DFPASE": 0.0
+  },
+  "positive_control": {
+    "pass": true,
+    "recovered": 34,
+    "of": 34,
+    "missing": []
+  },
+  "gate1_recall": {
+    "recall": 0.692,
+    "hits": 9,
+    "of": 13,
+    "pass": false,
+    "missed": [
+      "A4ZYB5",
+      "AFE88176.1",
+      "H2ER27",
+      "P16854"
+    ]
+  },
+  "gate2_specificity": {
+    "precision": 1.0,
+    "fp_eval": [],
+    "auroc": 0.916,
+    "pass": true,
+    "fp_detail": [],
+    "tune_fp_disclosed": [
+      "B6VG94"
+    ]
+  },
+  "corpus_size": 24240,
+  "split_version": 2
+}

@@ -1,0 +1,33 @@
+{
+  "frozen": {
+    "T": 300,
+    "D": 0,
+    "train_recall": 0.90625,
+    "tune_fp": 0
+  },
+  "positive_control": {
+    "pass": false,
+    "recovered": 29,
+    "of": 32
+  },
+  "gate1_recall": {
+    "recall": 0.7333333333333333,
+    "hits": 11,
+    "of": 15,
+    "pass": false,
+    "missed": [
+      "AFE88176.1",
+      "C0LA90",
+      "D0VX06",
+      "Q7SIG4"
+    ]
+  },
+  "gate2_specificity": {
+    "precision": 1.0,
+    "fp": 0,
+    "auroc": 0.9118279569892473,
+    "pass": true,
+    "fp_detail": []
+  },
+  "corpus_size": 24240
+}
