@@ -1,0 +1,44 @@
+{
+ "seed": 20260923,
+ "positive_control": {
+  "recovered": 82,
+  "total": 82
+ },
+ "gate1_recall_verified_heldout": {
+  "recovered": 27,
+  "total": 31,
+  "recall": 0.871,
+  "misses": [
+   "P37334",
+   "P77650",
+   "Q46373",
+   "Q8U671"
+  ]
+ },
+ "gate1_all_heldout": {
+  "recovered": 31,
+  "total": 35
+ },
+ "gate2": {
+  "precision": 1.0,
+  "auroc": 0.987,
+  "eval_negatives_called": [],
+  "n_eval_negatives": 36
+ },
+ "thresholds_T": {
+  "FAMX:RHD:RHD_OTHER": 80.6,
+  "FAMX:HLD:HALOALKANE": 230.2,
+  "FAMX:RHD:RHD_BPH": 53.3,
+  "FAMX:RHD:RHD_BTX": 12.5,
+  "FAMX:RHD:RHD_PAH": 834.3,
+  "FAMX:HLD:HALOACID": 276.2
+ },
+ "thresholds_D": {
+  "FAMX:RHD:RHD_OTHER": 0.0,
+  "FAMX:HLD:HALOALKANE": 0.0,
+  "FAMX:RHD:RHD_BPH": 0.0,
+  "FAMX:RHD:RHD_BTX": 0.0,
+  "FAMX:RHD:RHD_PAH": 0.0,
+  "FAMX:HLD:HALOACID": 0.0
+ }
+}

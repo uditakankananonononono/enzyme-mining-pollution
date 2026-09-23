@@ -1,0 +1,59 @@
+{
+ "corpus_total": 61927,
+ "mgnify_proteins": 49252,
+ "bg_proteins": 1947,
+ "decoy_proteins": 8594,
+ "candidates": 351,
+ "candidates_by_class": {
+  "RHD": 338,
+  "HLD": 13
+ },
+ "candidates_by_source": {
+  "bg_rieske_oxy.fasta": 336,
+  "bg_dehalogenase_like.fasta": 8,
+  "mgnify": 7
+ },
+ "novel_jacc_lt_0.5": 349,
+ "validation": {
+  "seed": 20260923,
+  "positive_control": {
+   "recovered": 61,
+   "total": 61
+  },
+  "gate1_recall_verified_heldout": {
+   "recovered": 18,
+   "total": 20,
+   "recall": 0.9,
+   "misses": [
+    "Q8G8B6",
+    "Q8U671"
+   ]
+  },
+  "gate1_all_heldout": {
+   "recovered": 26,
+   "total": 29
+  },
+  "gate2": {
+   "precision": 1.0,
+   "auroc": 1.0,
+   "eval_negatives_called": [],
+   "n_eval_negatives": 36
+  },
+  "thresholds_T": {
+   "FAMX:RHD:RHD_OTHER": 136.0,
+   "FAMX:HLD:HALOALKANE": 230.2,
+   "FAMX:RHD:RHD_BPH": 555.7,
+   "FAMX:RHD:RHD_BTX": 631.6,
+   "FAMX:RHD:RHD_PAH": 842.1,
+   "FAMX:HLD:HALOACID": 276.2
+  },
+  "thresholds_D": {
+   "FAMX:RHD:RHD_OTHER": 0.0,
+   "FAMX:HLD:HALOALKANE": 0.0,
+   "FAMX:RHD:RHD_BPH": 0.0,
+   "FAMX:RHD:RHD_BTX": 0.0,
+   "FAMX:RHD:RHD_PAH": 0.0,
+   "FAMX:HLD:HALOACID": 0.0
+  }
+ }
+}
