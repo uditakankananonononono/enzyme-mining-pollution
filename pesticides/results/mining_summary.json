@@ -1,0 +1,19 @@
+{
+  "corpus_total": 63817,
+  "mgnify_proteins": 23989,
+  "candidates": 53,
+  "candidates_by_class": {
+    "PYR": 51,
+    "OP": 2
+  },
+  "candidates_by_source": {
+    "bg_euk_ce.fasta": 52,
+    "bg_esterase.fasta": 1
+  },
+  "novel_jacc_lt_0.5": 43,
+  "revalidation": {
+    "pc": "34/34",
+    "gate1": "9/13",
+    "gate2_precision": 1.0
+  }
+}
