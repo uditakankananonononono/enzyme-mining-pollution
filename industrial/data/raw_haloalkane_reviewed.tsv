@@ -1,0 +1,34 @@
+Entry	Entry Name	Protein names	Gene Names	Organism	Length	EC number
+P22643	DHLA_XANAU	Haloalkane dehalogenase (EC 3.8.1.5)	dhlA	Xanthobacter autotrophicus	310	3.8.1.5
+D4Z2G1	LINB_SPHIU	Haloalkane dehalogenase (EC 3.8.1.5) (1,3,4,6-tetrachloro-1,4-cyclohexadiene halidohydrolase) (1,4-TCDN halidohydrolase)	linB SJA_C1-19590	Sphingobium indicum (strain DSM 16413 / CCM 7287 / MTCC 6362 / UT26 / NBRC 101211 / UT26S) (Sphingobium japonicum)	296	3.8.1.5
+Q6Q3H0	DHLA_XANFL	Haloalkane dehalogenase (EC 3.8.1.5)	dhlA	Xanthobacter flavus	310	3.8.1.5
+P9WMS1	DHMA2_MYCTU	Haloalkane dehalogenase 2 (EC 3.8.1.5)	dhmA2 Rv1833c MTCY1A11.10	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	286	3.8.1.5
+Q93K00	DHMA_MYCAV	Haloalkane dehalogenase (EC 3.8.1.5)	dhmA	Mycobacterium avium	301	3.8.1.5
+A0A1L5BTC1	LINB_SPHIB	Haloalkane dehalogenase (EC 3.8.1.5) (1,3,4,6-tetrachloro-1,4-cyclohexadiene halidohydrolase) (1,4-TCDN halidohydrolase)	linB SIDU_17345	Sphingobium indicum (strain DSM 16412 / CCM 7286 / MTCC 6364 / B90A)	296	3.8.1.5
+P0A3G3	DHAA_RHOSO	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA	Rhodococcus sp	293	3.8.1.5
+P9WMR9	DHAA_MYCTU	Haloalkane dehalogenase 3 (EC 3.8.1.5)	dhaA Rv2579 MTCY227.22c	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	300	3.8.1.5
+P0A3G2	DHAA_RHORH	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA	Rhodococcus rhodochrous	293	3.8.1.5
+P59336	DHAA_RHOSD	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA	Rhodococcus sp. (strain TDTM0003)	294	3.8.1.5
+P0A3G4	DHAA_PSEPV	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA	Pseudomonas pavonaceae	293	3.8.1.5
+P59337	DHAA_BRADU	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA blr1087	Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110)	310	3.8.1.5
+Q9ZER0	DHAA_MYCSX	Haloalkane dehalogenase (EC 3.8.1.5)	dhaAF	Mycobacterium sp. (strain GP1)	307	3.8.1.5
+B0SY51	DHMA_CAUSK	Haloalkane dehalogenase (EC 3.8.1.5)	dhmA Caul_2671	Caulobacter sp. (strain K31)	302	3.8.1.5
+B4RF90	DHMA_PHEZH	Haloalkane dehalogenase (EC 3.8.1.5)	dhmA PHZ_c2250	Phenylobacterium zucineum (strain HLK1)	301	3.8.1.5
+C1AF48	DHAA_MYCBT	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA JTY_2596	Mycobacterium bovis (strain BCG / Tokyo 172 / ATCC 35737 / TMC 1019)	300	3.8.1.5
+P9WMR8	DHAA_MYCTO	Haloalkane dehalogenase 3 (EC 3.8.1.5)	dhaA MT2656	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)	300	3.8.1.5
+Q73Y99	DHMA_MYCPA	Haloalkane dehalogenase (EC 3.8.1.5)	dhmA MAP_2057	Mycolicibacterium paratuberculosis (strain ATCC BAA-968 / K-10) (Mycobacterium paratuberculosis)	301	3.8.1.5
+Q9XB14	DHAA_MYCBO	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA dmbA BQ2027_MB2610	Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)	300	3.8.1.5
+A1KLS7	DHAA_MYCBP	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA BCG_2602	Mycobacterium bovis (strain BCG / Pasteur 1173P2)	300	3.8.1.5
+P64304	DHMA2_MYCBO	Haloalkane dehalogenase 2 (EC 3.8.1.5)	dhmA2 BQ2027_MB1864C	Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)	286	3.8.1.5
+P9WMS2	DHMA1_MYCTO	Haloalkane dehalogenase 1 (EC 3.8.1.5)	dhmA1 MT2353	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)	300	3.8.1.5
+Q8U671	DHAA_AGRFC	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA dha Atu6064 AGR_pTi_130	Agrobacterium fabrum (strain C58 / ATCC 33970) (Agrobacterium tumefaciens (strain C58))	304	3.8.1.5
+A5U5S9	DHAA_MYCTA	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA MRA_2608	Mycobacterium tuberculosis (strain ATCC 25177 / H37Ra)	300	3.8.1.5
+P9WMS0	DHMA2_MYCTO	Haloalkane dehalogenase 2 (EC 3.8.1.5)	dhmA2 MT1881	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)	286	3.8.1.5
+B2HJU9	DHMA_MYCMM	Haloalkane dehalogenase (EC 3.8.1.5)	dhmA MMAR_3472	Mycobacterium marinum (strain ATCC BAA-535 / M)	297	3.8.1.5
+P9WMS3	DHMA1_MYCTU	Haloalkane dehalogenase 1 (EC 3.8.1.5)	dhmA1 Rv2296 MTCY339.14c	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	300	3.8.1.5
+Q938B4	DHAA_MYCS2	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA MSMEG_6837 MSMEI_6656	Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium smegmatis)	311	3.8.1.5
+B8H3S9	DHMA_CAUVN	Haloalkane dehalogenase (EC 3.8.1.5)	dhmA CCNA_01233	Caulobacter vibrioides (strain NA1000 / CB15N) (Caulobacter crescentus)	302	3.8.1.5
+P64302	DHMA1_MYCBO	Haloalkane dehalogenase 1 (EC 3.8.1.5)	dhmA1 BQ2027_MB2318	Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)	300	3.8.1.5
+Q1QBB9	DHMA_PSYCK	Haloalkane dehalogenase (EC 3.8.1.5)	dhmA Pcryo_1253	Psychrobacter cryohalolentis (strain ATCC BAA-1226 / DSM 17306 / VKM B-2378 / K5)	303	3.8.1.5
+Q98C03	DHAA_RHILO	Haloalkane dehalogenase (EC 3.8.1.5)	dhaA mlr5354	Mesorhizobium japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099) (Mesorhizobium loti (strain MAFF 303099))	309	3.8.1.5
+Q9A919	DHMA_CAUVC	Haloalkane dehalogenase (EC 3.8.1.5)	dhmA CC_1175	Caulobacter vibrioides (strain ATCC 19089 / CIP 103742 / CB 15) (Caulobacter crescentus)	302	3.8.1.5

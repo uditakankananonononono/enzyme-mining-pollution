@@ -1,0 +1,201 @@
+Entry	Entry Name	Protein names	Gene Names	Organism	Length	EC number
+A0AA86L4L8	A0AA86L4L8_9SPHN	Ring hydroxylating dioxygenase alpha subunit (EC 1.14.12.18, EC 1.14.12.19)	thnA1 SGRAN_2796	Sphingopyxis granuli	460	1.14.12.18; 1.14.12.19
+Q8GJF2	Q8GJF2_SPHMC	Ring hydroxylating dioxygenase alpha subunit	thnA1	Sphingopyxis macrogoltabida (Sphingomonas macrogoltabidus)	464	
+Q392K9	Q392K9_BURL3	Ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein (EC 1.14.12.18)	Bcep18194_B2496	Burkholderia lata (strain ATCC 17760 / DSM 23089 / LMG 22485 / NCIMB 9086 / R18194 / 383)	427	1.14.12.18
+Q393D0	Q393D0_BURL3	Ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein (EC 1.14.12.18)	Bcep18194_B2325	Burkholderia lata (strain ATCC 17760 / DSM 23089 / LMG 22485 / NCIMB 9086 / R18194 / 383)	435	1.14.12.18
+H8IKX0	H8IKX0_MYCIA	Ring hydroxylating dioxygenase, alpha subunit	OCU_15100	Mycobacterium intracellulare (strain ATCC 13950 / DSM 43223 / JCM 6384 / NCTC 13025 / 3600)	467	
+Q39N48	Q39N48_BURL3	Ring hydroxylating dioxygenase, alpha subunit (EC 1.14.12.13)	Bcep18194_C7073	Burkholderia lata (strain ATCC 17760 / DSM 23089 / LMG 22485 / NCIMB 9086 / R18194 / 383)	445	1.14.12.13
+A1T2H7	A1T2H7_MYCVP	Ring hydroxylating dioxygenase, alpha subunit	Mvan_0533	Mycolicibacterium vanbaalenii (strain DSM 7251 / JCM 13017 / BCRC 16820 / KCTC 9966 / NRRL B-24157 / PYR-1) (Mycobacterium vanbaalenii)	471	
+A0A7Z9CPV6	A0A7Z9CPV6_KLETE	Ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein (EC 1.14.12.1, EC 1.14.12.18)	antA NCTC9997_01259	Klebsiella terrigena (Raoultella terrigena)	437	1.14.12.1; 1.14.12.18
+A1RD10	A1RD10_PAEAT	Aromatic-ring hydroxylating dioxygenase alpha-subunit (EC 1.14.12.-)	AAur_pTC10253	Paenarthrobacter aurescens (strain TC1)	423	1.14.12.-
+G7ZDV6	G7ZDV6_AZOL4	Aromatic-ring-hydroxylating dioxygenase, alpha subunit (EC 1.14.12.-)	AZOLI_p20649	Azospirillum lipoferum (strain 4B)	423	1.14.12.-
+A0A2P5AX69	A0A2P5AX69_PARAD	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	PanWU01x14_291400	Parasponia andersonii (Sponia andersonii)	536	
+A0A0B8ZX67	A0A0B8ZX67_BRELN	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	AE0388_3124	Brevibacterium linens	458	
+A0A2P5EHP1	A0A2P5EHP1_TREOI	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	TorRG33x02_191600	Trema orientale (Charcoal tree) (Celtis orientalis)	536	
+A0A9W9SF98	A0A9W9SF98_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7509_013415	Penicillium cosmopolitanum	433	
+A0A6C7DWF8	A0A6C7DWF8_ILUCY	Putative aromatic-ring-hydroxylating dioxygenase alpha subunit (EC 1.14.12.-)	YM304_06000	Ilumatobacter coccineus (strain NBRC 103263 / KCTC 29153 / YM16-304)	435	1.14.12.-
+A0A375HR75	A0A375HR75_9BURK	Choline monooxygenase ring hydroxylating dioxygenase alpha subunit motif (EC 1.14.-.-, EC 1.14.15.7)	CBM2605_B130367	Cupriavidus neocaledonicus	372	1.14.-.-; 1.14.15.7
+B3RBY9	B3RBY9_CUPTR	Choline monooxygenase ring hydroxylating dioxygenase alpha subunit motif (EC 1.14.-.-, EC 1.14.15.7)	RALTA_B1830	Cupriavidus taiwanensis (strain DSM 17343 / BCRC 17206 / CCUG 44338 / CIP 107171 / LMG 19424 / R1) (Ralstonia taiwanensis (strain LMG 19424))	373	1.14.-.-; 1.14.15.7
+Q9ZI73	Q9ZI73_STUST	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	nahAc	Stutzerimonas stutzeri (Pseudomonas stutzeri)	449	1.14.12.12
+A0A7K4E9J1	A0A7K4E9J1_9PSED	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	CSV86_001780	Pseudomonas bharatica CSV86	449	1.14.12.12
+A0A8D4C7R7	A0A8D4C7R7_9GAMM	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	SAMN05660875_102404	Stutzerimonas balearica DSM 6083	449	1.14.12.12
+F4Y9J0	F4Y9J0_STUST	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	cnbAc	Stutzerimonas stutzeri (Pseudomonas stutzeri)	447	1.14.12.12
+Q52142	Q52142_PSEPU	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	pahAc	Pseudomonas putida (Arthrobacter siderocapsulatus)	449	1.14.12.12
+A0ABX4VYA8	A0ABX4VYA8_9GAMM	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	CXK93_13040	Stutzerimonas decontaminans	449	1.14.12.12
+C3VIX2	C3VIX2_PSEPU	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	nahAc	Pseudomonas putida (Arthrobacter siderocapsulatus)	449	1.14.12.12
+Q1XGM0	Q1XGM0_PSEPU	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	nahAc	Pseudomonas putida (Arthrobacter siderocapsulatus)	449	1.14.12.12
+Q7B7H3	Q7B7H3_PSEPU	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha)	nahAc H0H12_29145	Pseudomonas putida (Arthrobacter siderocapsulatus)	449	1.14.12.12
+A2TC62	A2TC62_SPHYA	Ring hydroxylating dioxygenase alpha subunit	bphA1e	Sphingobium yanoikuyae (Sphingomonas yanoikuyae)	391	
+A9CJZ7	A9CJZ7_AGRFC	Ring hydroxylating dioxygenase, alpha-subunit	Atu0726	Agrobacterium fabrum (strain C58 / ATCC 33970) (Agrobacterium tumefaciens (strain C58))	414	
+W0GJ96	W0GJ96_9SPHN	Ring-hydroxylating dioxygenase alpha subunit	arhA1	Sphingomonas sp. VKM B-2434	443	
+A0AAI7ZF75	A0AAI7ZF75_XANC3	Ring hydroxylating dioxygenase alpha-subunit	XAC1960	Xanthomonas citri pv. citri (strain 306)	381	
+A2TC55	A2TC55_SPHYA	Ring hydroxylating dioxygenase alpha subunit	bphA1b	Sphingobium yanoikuyae (Sphingomonas yanoikuyae)	455	
+Q0REY2	Q0REY2_FRAAA	Ring hydroxylating dioxygenase alpha-subunit	FRAAL5337	Frankia alni (strain DSM 45986 / CECT 9034 / ACN14a)	399	
+W0GHT5	W0GHT5_9SPHN	Ring-hydroxylating dioxygenase alpha subunit	phnA1	Sphingomonas sp. VKM B-2434	454	
+A2TC57	A2TC57_SPHYA	Ring hydroxylating dioxygenase alpha subunit	bphA1a	Sphingobium yanoikuyae (Sphingomonas yanoikuyae)	448	
+Q65AT1	Q65AT1_9SPHN	Ring-hydroxylating dioxygenase alpha subunit	phnA1a	Sphingomonas sp. CHY-1	454	
+A0A081FZI0	A0A081FZI0_9GAMM	Ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein (EC 1.14.12.18)	ADIMK_1906	Marinobacterium lacunae	431	1.14.12.18
+A0A0H4VEX4	A0A0H4VEX4_9SPHN	Ring-hydroxylating dioxygenase alpha subunit	CP97_14005	Aurantiacibacter atlanticus	458	
+A0A158AVS6	A0A158AVS6_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB82_03086	Caballeronia glebae	452	
+A0A158D490	A0A158D490_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB79_06402	Caballeronia hypogeia	458	
+A0A158HW18	A0A158HW18_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB65_03874	Caballeronia humi	452	
+A4XDS7	A4XDS7_NOVAD	Ring hydroxylating dioxygenase, alpha subunit	Saro_3842	Novosphingobium aromaticivorans (strain ATCC 700278 / DSM 12444 / CCUG 56034 / CIP 105152 / NBRC 16084 / F199)	455	
+A4XDY3	A4XDY3_NOVAD	Ring hydroxylating dioxygenase, alpha subunit	Saro_3901	Novosphingobium aromaticivorans (strain ATCC 700278 / DSM 12444 / CCUG 56034 / CIP 105152 / NBRC 16084 / F199)	459	
+C5BSR9	C5BSR9_TERTT	Ring hydroxylating dioxygenase, alpha subunit	TERTU_1474	Teredinibacter turnerae (strain ATCC 39867 / T7901)	402	
+G7UVT2	G7UVT2_PSEUP	Ring hydroxylating dioxygenase, alpha subunit	DSC_08755	Pseudoxanthomonas spadix (strain BD-a59)	447	
+K2J5T5	K2J5T5_9RHOB	Ring hydroxylating dioxygenase, alpha-subunit	B30_13254	Celeribacter baekdonensis B30	424	
+K2PEB7	K2PEB7_9HYPH	Ring hydroxylating dioxygenase alpha-subunit	QWE_13513	Agrobacterium albertimagni AOL15	414	
+N1MEU8	N1MEU8_9SPHN	Ring hydroxylating dioxygenase,alpha-subunit	EBBID32_530	Sphingobium indicum BiD32	402	
+A0A157ZH13	A0A157ZH13_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB80_00803	Caballeronia pedi	452	
+A0A158E6F5	A0A158E6F5_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB78_06321	Caballeronia calidae	452	
+A0A158L450	A0A158L450_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB74_08112	Caballeronia arvi	452	
+A0A9J9H9D9	A0A9J9H9D9_RHIWR	Ring hydroxylating dioxygenase, alpha subunit	Swit_0890	Rhizorhabdus wittichii (strain DSM 6014 / CCUG 31198 / JCM 15750 / NBRC 105917 / EY 4224 / RW1) (Sphingomonas wittichii)	497	
+A0ABP2BJ25	A0ABP2BJ25_9HYPH	Ring hydroxylating dioxygenase, alpha-subunit	AGR13a_Cc60036	Agrobacterium genomosp. 13 str. CFBP 6927	436	
+A4XDS5	A4XDS5_NOVAD	Ring hydroxylating dioxygenase, alpha subunit	Saro_3840	Novosphingobium aromaticivorans (strain ATCC 700278 / DSM 12444 / CCUG 56034 / CIP 105152 / NBRC 16084 / F199)	450	
+A6EXT4	A6EXT4_9GAMM	Ring-hydroxylating dioxygenase, alpha subunit	MDG893_16547	Marinobacter algicola DG893	463	
+B9JAK6	B9JAK6_RHIR8	Ring hydroxylating dioxygenase alpha-subunit	Arad_1180	Rhizobium rhizogenes (strain K84 / ATCC BAA-868) (Agrobacterium radiobacter)	395	
+G7UWK7	G7UWK7_PSEUP	Ring hydroxylating dioxygenase, alpha subunit	DSC_09320	Pseudoxanthomonas spadix (strain BD-a59)	446	
+Q2G7Q3	Q2G7Q3_NOVAD	Ring hydroxylating dioxygenase, alpha subunit	Saro_1680	Novosphingobium aromaticivorans (strain ATCC 700278 / DSM 12444 / CCUG 56034 / CIP 105152 / NBRC 16084 / F199)	447	
+Q8F734	Q8F734_LEPIN	Ring hydroxylating dioxygenase alpha-subunit	LA_1114	Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601)	377	
+S5TU98	S5TU98_9GAMM	Ring hydroxylating dioxygenase alpha subunit	CYCME_0248	Cycloclasticus zancles 78-ME	451	
+A0A158A0E7	A0A158A0E7_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB77_01299	Caballeronia fortuita	452	
+A0A158C1S7	A0A158C1S7_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB83_03907	Caballeronia ptereochthonis	452	
+A0A158FX00	A0A158FX00_CABCO	Ring hydroxylating dioxygenase, alpha subunit	AWB70_01315	Caballeronia cordobensis (Burkholderia cordobensis)	452	
+A0ABP2RM04	A0ABP2RM04_BRALP	Ring hydroxylating dioxygenase, alpha-subunit	C241_21347	Bradyrhizobium lupini HPC(L)	414	
+B9JSJ8	B9JSJ8_GILA4	Ring hydroxylating dioxygenase alpha-subunit	Avi_0981	Gillisella ampelina (strain ATCC BAA-846 / DSM 112012 / S4) (Agrobacterium vitis)	429	
+E4PI98	E4PI98_MARAH	Ring hydroxylating dioxygenase, alpha subunit	HP15_39	Marinobacter adhaerens (strain DSM 23420 / HP15)	438	
+S5T4G9	S5T4G9_9GAMM	Ring hydroxylating dioxygenase alpha subunit	CYCME_0369	Cycloclasticus zancles 78-ME	451	
+S5T875	S5T875_9GAMM	Ring hydroxylating dioxygenase alpha subunit	CYCME_1676	Cycloclasticus zancles 78-ME	438	
+A0A0H3CB50	A0A0H3CB50_CAUVN	Ring hydroxylating dioxygenase, alpha-subunit	CCNA_03222	Caulobacter vibrioides (strain NA1000 / CB15N) (Caulobacter crescentus)	404	
+A0A0K2ZCB9	A0A0K2ZCB9_9XANT	Ring hydroxylating dioxygenase alpha-subunit	XTALMG727_0378	Xanthomonas graminis pv. arrhenatheri LMG 727	381	
+A0A157ZP34	A0A157ZP34_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB75_01045	Caballeronia catudaia	452	
+A0A242MTX4	A0A242MTX4_CABSO	Ring hydroxylating dioxygenase, alpha subunit	PAMC26510_16035	Caballeronia sordidicola (Burkholderia sordidicola)	440	
+A0A9J9LDP9	A0A9J9LDP9_RHIWR	Ring hydroxylating dioxygenase, alpha subunit	Swit_1758	Rhizorhabdus wittichii (strain DSM 6014 / CCUG 31198 / JCM 15750 / NBRC 105917 / EY 4224 / RW1) (Sphingomonas wittichii)	428	
+A0ABQ0IXZ6	A0ABQ0IXZ6_GLUTH	Ring hydroxylating dioxygenase alpha subunit	NBRC3257_2080	Gluconobacter thailandicus NBRC 3257	371	
+A0ACE6BHN9	A0ACE6BHN9_9PROT	Ring hydroxylating dioxygenase, alpha-subunit	TH2_06786	Thalassospira profundimaris WP0211	423	
+A1T2G9	A1T2G9_MYCVP	Ring hydroxylating dioxygenase, alpha subunit	Mvan_0525	Mycolicibacterium vanbaalenii (strain DSM 7251 / JCM 13017 / BCRC 16820 / KCTC 9966 / NRRL B-24157 / PYR-1) (Mycobacterium vanbaalenii)	463	
+A3SJQ7	A3SJQ7_ROSNI	Ring hydroxylating dioxygenase, alpha subunit	ISM_04825	Roseovarius nubinhibens (strain ATCC BAA-591 / DSM 15170 / ISM)	407	
+L0NKQ8	L0NKQ8_9HYPH	Ring hydroxylating dioxygenase alpha-subunit	NT26_3926	Pseudorhizobium banfieldiae	414	
+Q3IVE8	Q3IVE8_CERS4	Ring hydroxylating dioxygenase, alpha subunit	RSP_3978	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.) (Rhodobacter sphaeroides)	410	
+S5TAT5	S5TAT5_9GAMM	Ring hydroxylating dioxygenase alpha subunit	CYCME_2551	Cycloclasticus zancles 78-ME	396	
+A0A0B5E6Q8	A0A0B5E6Q8_9RHOB	Ring hydroxylating dioxygenase, alpha-subunit	P73_4415	Celeribacter indicus	424	
+A0A158A2P5	A0A158A2P5_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB76_01648	Caballeronia temeraria	452	
+A0A158GBF8	A0A158GBF8_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB67_01255	Caballeronia terrestris	452	
+A0A158KS01	A0A158KS01_9BURK	Ring hydroxylating dioxygenase, alpha subunit	AWB74_06751	Caballeronia arvi	452	
+A0A1S7Q591	A0A1S7Q591_9HYPH	Ring hydroxylating dioxygenase, alpha-subunit	AGR3A_Cc410026	Agrobacterium tomkonis CFBP 6623	414	
+A0A1S7TNG3	A0A1S7TNG3_9HYPH	Ring hydroxylating dioxygenase, alpha-subunit	AGR7A_Cc270030	Agrobacterium deltaense NCPPB 1641	414	
+A0A822V4D4	A0A822V4D4_AGRTU	Ring hydroxylating dioxygenase, alpha-subunit	AGR4A_Cc50059	Agrobacterium tumefaciens str. B6	414	
+A0A9J9HH21	A0A9J9HH21_RHIWR	Ring hydroxylating dioxygenase, alpha subunit	Swit_4897	Rhizorhabdus wittichii (strain DSM 6014 / CCUG 31198 / JCM 15750 / NBRC 105917 / EY 4224 / RW1) (Sphingomonas wittichii)	435	
+A0A9W5B2F7	A0A9W5B2F7_9HYPH	Ring hydroxylating dioxygenase, alpha-subunit	AGR2A_Cc60104	Agrobacterium genomosp. 2 str. CFBP 5494	414	
+A0ACD7BJX6	A0ACD7BJX6_MYCPC	Ring hydroxylating dioxygenase, alpha subunit	MAP4_1081	Mycobacterium avium subsp. paratuberculosis MAP4	446	
+A1T2D3	A1T2D3_MYCVP	Ring hydroxylating dioxygenase, alpha subunit	Mvan_0488	Mycolicibacterium vanbaalenii (strain DSM 7251 / JCM 13017 / BCRC 16820 / KCTC 9966 / NRRL B-24157 / PYR-1) (Mycobacterium vanbaalenii)	455	
+A1VUW1	A1VUW1_POLNA	Ring hydroxylating dioxygenase, alpha subunit	Pnap_4152	Polaromonas naphthalenivorans (strain CJ2)	456	
+A7IEE0	A7IEE0_XANVE	Ring hydroxylating dioxygenase alpha subunit	Xaut_1134	Xanthobacter versatilis	462	
+G6XG89	G6XG89_9PROT	Ring hydroxylating dioxygenase alpha subunit	GMO_05040	Gluconobacter morbifer G707	376	
+Q0BW28	Q0BW28_GRABC	Ring hydroxylating dioxygenase, alpha-subunit	GbCGDNIH1_0076	Granulibacter bethesdensis (strain ATCC BAA-1260 / CGDNIH1)	425	
+Q13VP5	Q13VP5_PARXL	Ring hydroxylating dioxygenase, alpha subunit	Bxe_A1102	Paraburkholderia xenovorans (strain LB400)	420	
+Q3S4D0	Q3S4D0_POLNA	Ring hydroxylating dioxygenase, alpha subunit	Pnap_2485	Polaromonas naphthalenivorans (strain CJ2)	447	
+Q9Z4T7	Q9Z4T7_SPHXE	Putative aromatic-ring hydroxylating dioxygenase alpha-subunit		Sphingobium xenophagum	470	
+S5TJ05	S5TJ05_9GAMM	Ring hydroxylating dioxygenase alpha subunit	CYCME_2562	Cycloclasticus zancles 78-ME	443	
+A0A099KIS2	A0A099KIS2_COLPS	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	ND2E_3449	Colwellia psychrerythraea (Vibrio psychroerythus)	425	
+A0A0A2KWK5	A0A0A2KWK5_PENEN	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	PEX2_013010	Penicillium expansum (Blue mold rot fungus)	434	
+A0A0D6MLF1	A0A0D6MLF1_9PROT	Ring hydroxylating dioxygenase alpha subunit	Tasa_017_134	Tanticharoenia sakaeratensis NBRC 103193	375	
+A0A0G4P610	A0A0G4P610_PENC3	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	PCAMFM013_S006g000268	Penicillium camemberti (strain FM 013)	439	
+A0A9W9PD48	A0A9W9PD48_PENCI	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7469_000475	Penicillium citrinum	434	
+A0AAD6H2N8	A0AAD6H2N8_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7450_001428	Penicillium hetheringtonii	434	
+A0ABM6WK18	A0ABM6WK18_9DEIN	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	Mtai_v1c22900	Meiothermus taiwanensis WR-220	444	
+A0ABM9DEM2	A0ABM9DEM2_9HYPH	Aromatic-ring hydroxylating dioxygenase alpha-subunit	MES5069_10096	Mesorhizobium escarrei	415	
+W6QN62	W6QN62_PENRF	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	PROQFM164_S06g000352	Penicillium roqueforti (strain FM164)	429	
+A0ABN0G1C6	A0ABN0G1C6_9BURK	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	A33K_17089	Burkholderia humptydooensis MSMB43	425	
+C3KNF5	C3KNF5_SINFN	Aromatic-ring hydroxylating dioxygenase, alpha-subunit	NGR_b23410	Sinorhizobium fredii (strain NBRC 101917 / NGR234)	401	
+D3PNA7	D3PNA7_MEIRD	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	Mrub_2685	Meiothermus ruber (strain ATCC 35948 / DSM 1279 / VKM B-1258 / 21) (Thermus ruber)	444	
+K2JVR0	K2JVR0_9RHOB	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	B30_16018	Celeribacter baekdonensis B30	425	
+A0A0A2L2I5	A0A0A2L2I5_PENIT	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	PITC_031230	Penicillium italicum (Blue mold)	434	
+A0A1L3LIY3	A0A1L3LIY3_9HYPH	Aromatic-ring hydroxylating dioxygenase, alpha-subunit (EC 1.14.12.10)	SAMCFNEI73_Ch0735	Sinorhizobium americanum	412	1.14.12.10
+A0A9W9ILU3	A0A9W9ILU3_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7492_003392	Penicillium capsulatum	427	
+A0A9W9K441	A0A9W9K441_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	NUU61_007283	Penicillium alfredii	448	
+A0A9W9MQ35	A0A9W9MQ35_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7472_001836	Penicillium cf. griseofulvum	435	
+A0A9W9N0C2	A0A9W9N0C2_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7472_001034	Penicillium cf. griseofulvum	439	
+A0A9W9RYS2	A0A9W9RYS2_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7496_007920	Penicillium cataractarum	464	
+D6U338	D6U338_KTERA	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	Krac_3838	Ktedonobacter racemifer DSM 44963	427	
+G7UUU2	G7UUU2_PSEUP	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	DSC_14605	Pseudoxanthomonas spadix (strain BD-a59)	422	
+W0RP39	W0RP39_9BACT	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	J421_5229	Gemmatirosa kalamazoonensis	359	
+A0A094YQ94	A0A094YQ94_9PROT	Bacterial ring hydroxylating dioxygenase alpha subunit	AtDm6_1994	Acetobacter tropicalis	360	
+A0A0B8ZX23	A0A0B8ZX23_BRELN	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	AE0388_2883	Brevibacterium linens	434	
+A0AAD6GLR6	A0AAD6GLR6_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7494_000883	Penicillium frequentans	430	
+C1DF17	C1DF17_AZOVD	Aromatic ring hydroxylating dioxygenase, alpha subunit	Avin_42190	Azotobacter vinelandii (strain DJ / ATCC BAA-1303)	448	
+G6EL83	G6EL83_9SPHN	Ring hydroxylating dioxygenase alpha subunit	phnA1a NSU_pLA1155	Novosphingobium pentaromativorans US6-1	415	
+A0A9W9XXA2	A0A9W9XXA2_9EURO	Aromatic-ring-hydroxylating dioxygenase alpha subunit	N7463_007803	Penicillium fimorum	431	
+G7ZC71	G7ZC71_AZOL4	Aromatic-ring-hydroxylating dioxygenase, alpha subunit (EC 1.14.12.-)	AZOLI_p10986	Azospirillum lipoferum (strain 4B)	430	1.14.12.-
+Q4K9X5	Q4K9X5_PSEF5	Toluate 1,2-dioxygenase subunit alpha (EC 1.14.12.11)	xylX PFL_3858	Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5)	454	1.14.12.11
+A0A0J9WXI0	A0A0J9WXI0_XANOP	Ring hydroxylating dioxygenase alpha-subunit	PXO_00986 PXO_06180	Xanthomonas oryzae pv. oryzae (strain PXO99A)	377	
+A0A2Z6EUP9	A0A2Z6EUP9_9BURK	Bacterial ring hydroxylating dioxygenase, alpha subunit protein	MCB1EB_0980	Mycoavidus cysteinexigens	372	
+M5EH80	M5EH80_9HYPH	Putative aromatic-ring hydroxylating dioxygenase alpha-subunit	MESS2_1100027	Mesorhizobium metallidurans STM 2683	414	
+Q2CFB9	Q2CFB9_OCEGH	Putative aromatic-ring hydroxylating dioxygenase, alpha-subunit	OG2516_15469	Oceanicola granulosus (strain ATCC BAA-861 / DSM 15982 / KCTC 12143 / HTCC2516)	409	
+A0A2Z6E439	A0A2Z6E439_9GAMM	Ring hydroxylating dioxygenase, alpha subunit/Rieske protein	ALSL_1100	Aerosticca soli	429	
+A3K7H8	A3K7H8_SAGS3	Putative aromatic-ring hydroxylating dioxygenase, alpha-subunit	SSE37_00660	Sagittula stellata (strain ATCC 700073 / DSM 11524 / E-37)	411	
+Q13HF5	Q13HF5_PARXL	Rieske-type ring hydroxylating dioxygenase alpha subunit	Bxe_C0586	Paraburkholderia xenovorans (strain LB400)	468	
+A0A1M4N054	A0A1M4N054_9RHOB	Putative aromatic-ring hydroxylating dioxygenase, alpha-subunit	KARMA_1602	Donghicola eburneus	411	
+A0A1R3V2T3	A0A1R3V2T3_9HYPH	Putative aromatic-ring hydroxylating dioxygenase alpha-subunit	BQ8794_140378	Mesorhizobium prunaredense	415	
+A0A2P9ABL0	A0A2P9ABL0_9HYPH	Putative aromatic-ring hydroxylating dioxygenase alpha-subunit	BQ8482_110472	Mesorhizobium delmotii	415	
+Q0FKF0	Q0FKF0_SALBH	Putative aromatic-ring hydroxylating dioxygenase, alpha-subunit	R2601_18658	Salipiger bermudensis (strain DSM 26914 / JCM 13377 / KCTC 12554 / HTCC2601) (Pelagibaca bermudensis)	412	
+Q0FPQ7	Q0FPQ7_SALBH	Putative aromatic-ring hydroxylating dioxygenase, alpha-subunit	R2601_01623	Salipiger bermudensis (strain DSM 26914 / JCM 13377 / KCTC 12554 / HTCC2601) (Pelagibaca bermudensis)	418	
+Q0K331	Q0K331_CUPNH	Ring hydroxylating dioxygenase alpha subunit (Catalytic domain) (EC 1.-.-.-)	H16_B0801	Cupriavidus necator (strain ATCC 17699 / DSM 428 / KCTC 22496 / NCIMB 10442 / H16 / Stanier 337) (Ralstonia eutropha)	429	1.-.-.-
+A0ABF7RE10	A0ABF7RE10_RALSL	Bacterial ring hydroxylating dioxygenase, alpha subunit protein	RSIPO_02015	Ralstonia solanacearum IPO1609	365	
+A3V5N0	A3V5N0_9RHOB	Putative aromatic-ring hydroxylating dioxygenase, alpha-subunit	SKA53_15411	Yoonia vestfoldensis SKA53	412	
+A3VF66	A3VF66_9RHOB	Putative aromatic-ring hydroxylating dioxygenase, alpha-subunit	RB2654_10803	Maritimibacter alkaliphilus HTCC2654	412	
+I3TT69	I3TT69_TISMK	Aromatic-ring-hydroxylating dioxygenase, alpha subunit	bphA TMO_a0554	Tistrella mobilis (strain KA081020-065)	402	
+H5TXZ2	H5TXZ2_9ACTN	Putative aromatic-ring-hydroxylating dioxygenase alpha subunit	GOSPT_044_00070	Gordonia sputi NBRC 100414	436	
+E3J979	E3J979_PSEI1	Aromatic-ring-hydroxylating dioxygenase, alpha subunit-like protein	FraEuI1c_4097	Pseudofrankia inefficax (strain DSM 45817 / CECT 9037 / DDB 130130 / EuI1c) (Frankia inefficax)	452	
+I7ZHU7	I7ZHU7_9GAMM	Aromatic-ring-hydroxylating dioxygenase, alpha subunit-like protein	WQQ_14690	Hydrocarboniphaga effusa AP103	455	
+A0A8H4MW81	A0A8H4MW81_9PEZI	Aromatic-ring-hydroxylating dioxygenase alpha subunit	GTA08_BOTSDO07109 GTA08_BOTSDO11304	Botryosphaeria dothidea	424	
+D4GP10	D4GP10_HALVD	Aromatic-ring-hydroxylating dioxygenase alpha subunit family protein	HVO_B0009	Haloferax volcanii (strain ATCC 29605 / DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 / DS2) (Halobacterium volcanii)	380	
+D3F7A0	D3F7A0_CONWI	Aromatic-ring-hydroxylating dioxygenase, alpha subunit-like protein	Cwoe_0435	Conexibacter woesei (strain DSM 14684 / CCUG 47730 / CIP 108061 / JCM 11494 / NBRC 100937 / ID131577)	427	
+D5WVJ7	D5WVJ7_KYRT2	Aromatic-ring-hydroxylating dioxygenase, alpha subunit-like protein	Btus_2903	Kyrpidia tusciae (strain DSM 2912 / NBRC 15312 / T2) (Bacillus tusciae)	438	
+A0A8B4S7E8	A0A8B4S7E8_COMTE	Naphthalene 1,2-dioxygenase subunit alpha (EC 1.14.12.12)	doxB NCTC10698_04045	Comamonas testosteroni (Pseudomonas testosteroni)	391	1.14.12.12
+A0A059MVC9	A0A059MVC9_9NOCA	Probable naphthalene 1,2-dioxygenase (EC 1.14.12.12)	RAJCM14343_2945	Rhodococcus aetherivorans	389	1.14.12.12
+Q39A19	Q39A19_BURL3	Rieske (2Fe-2S) protein (EC 1.14.12.12)	Bcep18194_B0578	Burkholderia lata (strain ATCC 17760 / DSM 23089 / LMG 22485 / NCIMB 9086 / R18194 / 383)	413	1.14.12.12
+Q39P05	Q39P05_BURL3	Dioxygenase (EC 1.14.12.12)	Bcep18194_C6764	Burkholderia lata (strain ATCC 17760 / DSM 23089 / LMG 22485 / NCIMB 9086 / R18194 / 383)	414	1.14.12.12
+A0A231H331	A0A231H331_9NOCA	Naphthalene 1,2-dioxygenase subunit alpha (EC 1.14.12.12)	nagAc B7C42_04659	Nocardia cerradoensis	429	1.14.12.12
+A0ABU2E3T0	A0ABU2E3T0_9BURK	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12)	nagAc FEQ00_02772	Burkholderia pseudomultivorans	414	1.14.12.12
+A0A916JX21	A0A916JX21_9MICO	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1 LEUCIP111803_01150	Leucobacter soli	463	1.14.12.18
+I3TTN7	I3TTN7_TISMK	Aromatic-ring-hydroxylating dioxygenase, alpha subunit-like protein	hcaE TMO_b0117	Tistrella mobilis (strain KA081020-065)	462	
+S5TXR2	S5TXR2_9GAMM	Ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein	CYCME_1640	Cycloclasticus zancles 78-ME	420	
+A0A446CJW6	A0A446CJW6_9BURK	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1 AGI3411_03435	Achromobacter agilis	382	1.14.12.18
+A0A447GCU9	A0A447GCU9_9MYCO	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18)	bphA_2 MB901379_01898	Mycobacterium basiliense	445	1.14.12.18
+A0A6S6Z6X1	A0A6S6Z6X1_9BURK	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18)	bphA LMG3441_00689	Achromobacter kerstersii	451	1.14.12.18
+A0A8E2LPU0	A0A8E2LPU0_9MYCO	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18)	bphA_2 LAUMK4_01959	Mycobacterium persicum	451	1.14.12.18
+F2JUY7	F2JUY7_MARM1	Biphenyl 2,3-dioxygenase (EC 1.14.12.18)	Marme_2404	Marinomonas mediterranea (strain ATCC 700492 / JCM 21426 / NBRC 103028 / MMB-1)	418	1.14.12.18
+S5TWW5	S5TWW5_9GAMM	Ring hydroxylating dioxygenase subunit alpha/Rieske (2Fe-2S) protein (EC 1.14.12.18)	CYCME_1152	Cycloclasticus zancles 78-ME	416	1.14.12.18
+A0A157SJT2	A0A157SJT2_9BORD	Hydroxylating subunit alpha of a dioxygenase system (EC 1.14.12.18)	hcaE SAMEA3906487_02393	Bordetella trematum	443	1.14.12.18
+A0A433SBW2	A0A433SBW2_9BURK	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1 CUZ56_02265	Saezia sanguinis	383	1.14.12.18
+A0A554XL20	A0A554XL20_9BURK	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1 Tchar_00147	Tepidimonas charontis	388	1.14.12.18
+A0A6I8LZL5	A0A6I8LZL5_9PSEU	Biphenyl dioxygenase alpha subunit (EC) (EC 1.14.12.18)	AA23TX_07034	Amycolatopsis camponoti	464	1.14.12.18
+A0A840CCV5	A0A840CCV5_9RHOB	Biphenyl 2,3-dioxygenase alpha subunit (EC 1.14.12.18)	GGR17_003734	Actibacterium naphthalenivorans	454	1.14.12.18
+A0A974ZR95	A0A974ZR95_9NOCA	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1 JWS13_01600	Rhodococcus pseudokoreensis	460	1.14.12.18
+A0A9E7C0A1	A0A9E7C0A1_9ACTN	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1_1 DSM104329_01709	Capillimicrobium parvum	454	1.14.12.18
+F6CVL5	F6CVL5_MARPP	Biphenyl 2,3-dioxygenase (EC 1.14.12.18)	Mar181_2357	Marinomonas posidonica (strain CECT 7376 / NCIMB 14433 / IVIA-Po-181)	418	1.14.12.18
+A0A2R8C0W5	A0A2R8C0W5_9RHOB	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18)	bphA PAA8504_03909	Palleronia abyssalis	418	1.14.12.18
+A0A498QRG6	A0A498QRG6_9MYCO	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18)	bphA_2 LAUMK142_02186	Mycobacterium pseudokansasii	451	1.14.12.18
+A0A7Z7IJG3	A0A7Z7IJG3_9MYCO	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1 MSIMFB_02142	Mycobacterium simulans	460	1.14.12.18
+A0A9E6Y180	A0A9E6Y180_9ACTN	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1_2 DSM104329_04653	Capillimicrobium parvum	449	1.14.12.18
+A0ABM8WF95	A0ABM8WF95_9BURK	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1 LMG23994_00872	Cupriavidus pinatubonensis	466	1.14.12.18
+Q84EP4	Q84EP4_9BURK	Biphenyl 2,3-dioxygenase oxidoreductase (EC 1.14.12.18)	bphA1	Cupriavidus oxalaticus	458	1.14.12.18
+A0A0H3KJ84	A0A0H3KJ84_BURM1	Ring-hydroxylating dioxygenase large terminal subunit (EC 1.14.12.18)	BMULJ_03437	Burkholderia multivorans (strain ATCC 17616 / 249)	427	1.14.12.18
+A0A3P4B4X7	A0A3P4B4X7_9BURK	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18)	bphA_2 PIGHUM_03414	Pigmentiphaga humi	388	1.14.12.18
+A0A3P4B5E0	A0A3P4B5E0_9BURK	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18)	bphA_1 PIGHUM_02957	Pigmentiphaga humi	380	1.14.12.18
+A0A498PYA1	A0A498PYA1_9MYCO	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18)	bphA1 LAUMK136_02071	Mycobacterium attenuatum	476	1.14.12.18
+B8KTB9	B8KTB9_9GAMM	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18)	NOR51B_2786	Luminiphilus syltensis NOR5-1B	441	1.14.12.18
+F0Q1Z1	F0Q1Z1_PARA1	Biphenyl 2,3-dioxygenase (EC 1.14.12.18)	Acav_0196	Paracidovorax avenae (strain ATCC 19860 / DSM 7227 / CCUG 15838 / JCM 20985 / LMG 2117 / NCPPB 1011) (Acidovorax avenae)	422	1.14.12.18
+Q75WN5	Q75WN5_RHOJR	Ethylbenzene dioxygenase alpha subunit (EC 1.14.12.18)	ebdA1 etbA1 etbAa1 etbAa2 RHA1_ro10133 RHA1_ro10143	Rhodococcus jostii (strain RHA1)	456	1.14.12.18
+S5TV85	S5TV85_9GAMM	Biphenyl dioxygenase alpha subunit (EC 1.14.12.18)	CYCME_0669	Cycloclasticus zancles 78-ME	443	1.14.12.18
+F0KF58	F0KF58_ACIP2	Ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein	BDGL_001340	Acinetobacter pittii (strain PHEA-2)	425	
+B7LLA6	B7LLA6_ESCF3	Ring hydroxylating dioxygenase, alpha subunit:Rieske [2Fe-2S] region (EC 1.14.12.10)	EFER_0798	Escherichia fergusonii (strain ATCC 35469 / DSM 13698 / CCUG 18766 / IAM 14443 / JCM 21226 / LMG 7866 / NBRC 102419 / NCTC 12128 / CDC 0568-73)	433	1.14.12.10
+D9WS51	D9WS51_9ACTN	Ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein	SSOG_08009	Streptomyces himastatinicus ATCC 53653	431	
+A0A0U5B838	A0A0U5B838_9PROT	Ring hydroxylating dioxygenase, alpha subunit:Rieske [2Fe-2S] region (EC 1.14.12.10)	ASN_1345	Acetobacter senegalensis	426	1.14.12.10
+A0A402CGZ4	A0A402CGZ4_RHOWR	Ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein	Rhow_006968	Rhodococcus wratislaviensis (Tsukamurella wratislaviensis)	428	
+A0A9Q9EQW4	A0A9Q9EQW4_9PEZI	FAD dependent oxidoreductase, aromatic-ring-hydroxylating dioxygenase, alpha subunit	Slin15195_G128540	Septoria linicola	596	
+Q13YH6	Q13YH6_PARXL	(Poly)aromatic ring hydroxylating dioxygenase, alpha subunit (Rieske (2Fe-2S) region)	Bxe_A2105	Paraburkholderia xenovorans (strain LB400)	427	
+A0A448I340	A0A448I340_MYCCI	Rieske (2Fe-2S) protein (EC 1.14.12.12, EC 1.14.12.18)	bphA NCTC10485_01380	Mycolicibacterium chitae (Mycobacterium chitae)	442	1.14.12.12; 1.14.12.18
+A0AA40T281	A0AA40T281_9NOST	Aromatic-ring-hydroxylating dioxygenase alpha subunit C-terminal domain-containing protein	FNW02_26770	Komarekiella delphini-convector SJRDD-AB1	579	
+A0A9K1QZL1	A0A9K1QZL1_9ENTR	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE RY846_06155	Citrobacter portucalensis	453	1.14.12.19

@@ -1,0 +1,35 @@
+Entry	Entry Name	Protein names	Gene Names	Organism	Length	EC number
+P0ADI4	ENTB_ECOLI	Enterobactin synthase component B (EC 6.3.2.14) (Enterobactin biosynthesis bifunctional protein EntB) (Enterochelin synthase B) [Includes: Isochorismatase (EC 3.3.2.1) (2,3-dihydro-2,3-dihydroxybenzoate synthase) (Isochorismate lyase); Aryl carrier protein (ArCP)]	entB entG b0595 JW0587	Escherichia coli (strain K12)	285	3.3.2.1; 6.3.2.14
+P77455	PAAZ_ECOLI	Bifunctional protein PaaZ [Includes: 2-oxepin-2(3H)-ylideneacetyl-CoA hydrolase (EC 3.3.2.12) (Oxepin-CoA hydrolase); 3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase (EC 1.2.1.91)]	paaZ maoC ydbN b1387 JW1382	Escherichia coli (strain K12)	681	1.2.1.91; 3.3.2.12
+O33283	EPHG_MYCTU	Epoxide hydrolase EphG (EH) (EC 3.3.2.10) (Cholesterol-5,6-oxide hydrolase) (EC 3.3.2.11)	ephG Rv2740	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	149	3.3.2.10; 3.3.2.11
+A0A0H2ZD27	CIF_PSEAB	CFTR inhibitory factor (Cif) (Cystic fibrosis transmembrane conductance regulator inhibitory factor) (Epoxide hydrolase virulence factor) (EC 3.3.2.10) (Toxin Cif)	cif PA14_26090	Pseudomonas aeruginosa (strain UCBPP-PA14)	319	3.3.2.10
+Q9KID9	FKBO_STRHY	Chorismatase (EC 3.3.2.13) (Chorismate hydrolase)	fkbO	Streptomyces hygroscopicus	344	3.3.2.13
+P0DPC1	PHZD2_PSEAE	Phenazine biosynthesis protein PhzD2 (2-amino-4-deoxychorismate hydrolase) (EC 3.3.2.15) (Isochorismatase) (Trans-2,3-dihydro-3-hydroxyanthranilic acid synthase)	phzD2 phzD PA1902	Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)	207	3.3.2.15
+P0DY66	CIF_ACIX2	CFTR inhibitory factor (aCif) (Cif virulence factor) (Cystic fibrosis transmembrane conductance regulator inhibitory factor) (Epoxide hydrolase virulence factor) (EC 3.3.2.10)	cif HMPREF0014_00517	Acinetobacter sp. (strain RUH 2624)	349	3.3.2.10
+Q5ZU17	LYPGN_LEGPH	Lysoplasmalogenase (EC 3.3.2.2) (LpYhhN)	lpg1991	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)	216	3.3.2.2
+P9WG51	LYPGN_MYCTU	Lysoplasmalogenase (EC 3.3.2.2)	Rv1401 MTCY21B4.18	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	261	3.3.2.2
+A0A242M8J4	EPOXH_CABSO	Epoxide hydrolase (EC 3.3.2.10) (CaEH)	PAMC26510_32755	Caballeronia sordidicola (Burkholderia sordidicola)	329	3.3.2.10
+O52866	HYES_CORS2	Soluble epoxide hydrolase (SEH) (EC 3.3.2.10) (Cytosolic epoxide hydrolase) (cEH) (Epoxide hydratase)		Corynebacterium sp. (strain C12)	286	3.3.2.10
+A0A126P745	EPOXH_BOSS2	Epoxide hydrolase (EC 3.3.2.10) (BoEH)	AXW83_17570	Bosea sp. (strain PAMC 26642)	288	3.3.2.10
+P0ADI5	ENTB_ECO57	Enterobactin synthase component B (EC 6.3.2.14) (Enterobactin biosynthesis bifunctional protein EntB) (Enterochelin synthase B) [Includes: Isochorismatase (EC 3.3.2.1) (2,3-dihydro-2,3-dihydroxybenzoat synthase) (Isochorismate lyase); Aryl carrier protein (ArCP)]	entB Z0737 ECs0634	Escherichia coli O157:H7	285	3.3.2.1; 6.3.2.14
+P0ADI6	ENTB_SHIFL	Enterobactin synthase component B (EC 6.3.2.14) (Enterobactin biosynthesis bifunctional protein EntB) (Enterochelin synthase B) [Includes: Isochorismatase (EC 3.3.2.1) (2,3-dihydro-2,3-dihydroxybenzoat synthase) (Isochorismate lyase); Aryl carrier protein (ArCP)]	entB SF0509 S0515	Shigella flexneri	285	3.3.2.1; 6.3.2.14
+P0DPB9	PHZD1_PSEAE	Phenazine biosynthesis protein PhzD1 (2-amino-4-deoxychorismate hydrolase) (EC 3.3.2.15) (Isochorismatase) (Trans-2,3-dihydro-3-hydroxyanthranilic acid synthase)	phzD1 phzD PA4213	Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)	207	3.3.2.15
+Q9ZAG3	LIMA_RHOER	Limonene-1,2-epoxide hydrolase (EC 3.3.2.8)	limA	Rhodococcus erythropolis (Arthrobacter picolinophilus)	149	3.3.2.8
+Q1IAL0	PMSD_PSEE4	Pseudomonine synthase PmsD (Nonribosomal peptide synthase PmsD) [Includes: Salicyl-L-threonine cyclase (EC 3.3.2.-); Salicyl-[PsmE]:L-threonyl-[PmsG] salicyltransferase (EC 2.3.1.-); L-threonine--[L-threonyl-carrier protein] ligase (EC 6.2.1.70)]	pmsD basA PSEEN2503	Pseudomonas entomophila (strain DSM 28517 / CCUG 61470 / CECT 7985 / L48)	1438	2.3.1.-; 3.3.2.-; 6.2.1.70
+P45743	DHBB_BACSU	Isochorismatase (EC 3.3.2.1) (2,3 dihydro-2,3 dihydroxybenzoate synthase) (Superoxide-inducible protein 1) (SOI1)	dhbB BSU31970	Bacillus subtilis (strain 168)	312	3.3.2.1
+I6YGS0	EPHA_MYCTU	Epoxide hydrolase A (EHB) (EC 3.3.2.10) (Epoxide hydrolase EphA)	ephA Rv3617	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	322	3.3.2.10
+Q51790	PHZD_PSEFL	Phenazine biosynthesis protein PhzD (2-amino-4-deoxychorismate hydrolase) (EC 3.3.2.15) (Trans-2,3-dihydro-3-hydroxyanthranilic acid synthase)	phzD	Pseudomonas fluorescens	207	3.3.2.15
+Q54305	RAPK_STRRN	Chorismatase (EC 3.3.2.13)	rapK M271_40655	Streptomyces rapamycinicus (strain ATCC 29253 / DSM 41530 / NRRL 5491 / AYB-994) (Streptomyces hygroscopicus (strain ATCC 29253))	334	3.3.2.13
+A0A096ZED0	DNHB_NOCS1	2,4-dinitroanisole O-demethylase subunit beta (DNAN hydrolase subunit beta) (DNHB) (EC 3.3.2.14)	dnhB	Nocardioides sp. (strain JS1661)	318	3.3.2.14
+P0C6D3	VIBB_VIBCH	Vibriobactin-specific isochorismatase (EC 3.3.2.1) (2,3 dihydro-2,3 dihydroxybenzoate synthase) (Isochorismate lyase-ArCP)	vibB VC_0771	Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)	293	3.3.2.1
+P74965	VENB_VIBVU	Probable isochorismatase (EC 3.3.2.1) (2,3 dihydro-2,3 dihydroxybenzoate synthase)	venB VV2_0838	Vibrio vulnificus (strain CMCP6)	295	3.3.2.1
+O53388	EPHH_MYCTU	Epoxide hydrolase EphH (EH) (EC 3.3.2.10)	ephH Rv3338	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	214	3.3.2.10
+A0A096ZEC9	DNHA_NOCS1	2,4-dinitroanisole O-demethylase subunit alpha (DNAN hydrolase subunit alpha) (DNHA) (EC 3.3.2.14)	dnhA	Nocardioides sp. (strain JS1661)	328	3.3.2.14
+I6YC03	EPHB_MYCTU	Epoxide hydrolase B (EHB) (EC 3.3.2.10) (Epoxide hydrolase EphB)	ephB Rv1938	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	356	3.3.2.10
+P95276	EPHB_MYCTO	Epoxide hydrolase B (EHB) (EC 3.3.2.10)	MT1988	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)	356	3.3.2.10
+P64838	LYPGN_MYCBO	Lysoplasmalogenase (EC 3.3.2.2)	BQ2027_MB1436	Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)	261	3.3.2.2
+P9WG50	LYPGN_MYCTO	Lysoplasmalogenase (EC 3.3.2.2)	MT1445	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)	261	3.3.2.2
+Q06816	HYEP_STIAD	Putative epoxide hydrolase (EC 3.3.2.10) (Epoxide hydratase)	STAUR_4299 STIAU_6512	Stigmatella aurantiaca (strain DW4/3-1)	440	3.3.2.10
+P80048	HYEP_PSEU1	Epoxide hydrolase (EC 3.3.2.10) (Epoxide hydratase)		Pseudomonas sp. (strain AD1)	77	3.3.2.10
+A5F3F4	VIBB_VIBC3	Vibriobactin-specific isochorismatase (EC 3.3.2.1) (2,3 dihydro-2,3 dihydroxybenzoate synthase) (Isochorismate lyase-ArCP)	vibB VC0395_A0300 VC395_0788	Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395)	293	3.3.2.1
+Q51518	PHZA_PSECL	Probable isochorismatase (EC 3.3.2.1) (2,3 dihydro-2,3 dihydroxybenzoate synthase)	phzA	Pseudomonas chlororaphis (Pseudomonas aureofaciens)	207	3.3.2.1

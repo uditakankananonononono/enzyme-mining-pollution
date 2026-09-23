@@ -1,0 +1,91 @@
+Entry	Entry Name	Protein names	Gene Names	Organism	Length	EC number
+Q08623	HDHD1_HUMAN	Pseudouridine-5'-phosphatase (EC 3.1.3.96) (Haloacid dehalogenase-like hydrolase domain-containing protein 1) (Haloacid dehalogenase-like hydrolase domain-containing protein 1A) (Protein GS1) (Pseudouridine-5'-monophosphatase) (5'-PsiMPase)	PUDP DXF68S1E FAM16AX GS1 HDHD1 HDHD1A	Homo sapiens (Human)	228	3.1.3.96
+P0A8Y3	YIHX_ECOLI	Alpha-D-glucose 1-phosphate phosphatase YihX (Alpha-D-glucose-1-P phosphatase) (EC 3.1.3.10) (Alpha-D-glucose-1-phosphatase) (Haloacid dehalogenase-like phosphatase 4) (HAD4)	yihX b3885 JW5566	Escherichia coli (strain K12)	199	3.1.3.10
+Q8TBE9	NANP_HUMAN	N-acylneuraminate-9-phosphatase (EC 3.1.3.29) (Haloacid dehalogenase-like hydrolase domain-containing protein 4) (HDHD4) (N-acetylneuraminate-9-phosphate phosphatase) (Neu5Ac-9-Pase)	NANP C20orf147 HDHD4	Homo sapiens (Human)	248	3.1.3.29
+Q8VZP1	GPP2_ARATH	(DL)-glycerol-3-phosphatase 2 (EC 3.1.3.21) (Glycerol-1-phosphatase 2) (Haloacid dehalogenase-like hydrolase domain-containing protein GPP2)	GPP2 GS1 At5g57440 MSF19 MUA2.2	Arabidopsis thaliana (Mouse-ear cress)	240	3.1.3.21
+Q9ZVJ5	SGGP_ARATH	2-deoxyglucose-6-phosphatase (EC 3.1.3.68) (Glucose-6-phosphatase) (EC 3.1.3.-) (Glycerol-1-phosphatase) (EC 3.1.3.21) (Haloacid dehalogenase-like hydrolase domain-containing protein Sgpp) (Subclass I phosphosugar phosphatase) (AtSgpp)	SGPP At2g38740 T6A23.6	Arabidopsis thaliana (Mouse-ear cress)	244	3.1.3.-; 3.1.3.21; 3.1.3.68
+Q9BSH5	HDHD3_HUMAN	Haloacid dehalogenase-like hydrolase domain-containing protein 3	HDHD3 C9orf158	Homo sapiens (Human)	251	
+F4JTE7	GPP1_ARATH	(DL)-glycerol-3-phosphatase 1, mitochondrial (EC 3.1.3.21) (5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase) (AtGpp1/PyrP3) (EC 3.1.3.104) (5-amino-6-ribitylamino-2,4(1H,3H)-pyrimidinedione 5'-phosphate phosphatase) (ARPP phosphatase) (Glycerol-1-phosphatase 1) (AtGPP1) (Haloacid dehalogenase-like hydrolase domain-containing protein GPP1)	GPP1 PYRP3 At4g25840 F14M19.120	Arabidopsis thaliana (Mouse-ear cress)	298	3.1.3.104; 3.1.3.21
+P46891	COF_ECOLI	HMP-PP phosphatase (EC 3.6.1.-)	cof b0446 JW0436	Escherichia coli (strain K12)	272	3.6.1.-
+P77625	HXPA_ECOLI	Hexitol phosphatase A (Mannitol-1-phosphatase) (EC 3.1.3.22) (Sorbitol-6-phosphatase) (EC 3.1.3.50) (Sugar-phosphatase) (EC 3.1.3.23)	hxpA yfbT b2293 JW5376	Escherichia coli (strain K12)	216	3.1.3.22; 3.1.3.23; 3.1.3.50
+Q5M969	NANP_RAT	N-acylneuraminate-9-phosphatase (EC 3.1.3.29) (Haloacid dehalogenase-like hydrolase domain-containing protein 4) (N-acetylneuraminate-9-phosphate phosphatase) (Neu5Ac-9-Pase)	Nanp Hdhd4	Rattus norvegicus (Rat)	248	3.1.3.29
+P21829	YBHA_ECOLI	Pyridoxal phosphate phosphatase YbhA (PLP phosphatase) (EC 3.1.3.74)	ybhA b0766 JW0749	Escherichia coli (strain K12)	272	3.1.3.74
+P31678	OTSB_ECOLI	Trehalose-6-phosphate phosphatase (TPP) (EC 3.1.3.12) (Osmoregulatory trehalose synthesis protein B) (Trehalose 6-phosphate phosphatase) (Trehalose-phosphatase)	otsB b1897 JW1886	Escherichia coli (strain K12)	266	3.1.3.12
+P0A8Y5	YIDA_ECOLI	Sugar phosphatase YidA (EC 3.1.3.23)	yidA b3697 JW3674	Escherichia coli (strain K12)	270	3.1.3.23
+P27848	YIGL_ECOLI	Phosphosugar phosphatase YigL (EC 3.1.3.23) (Pyridoxal phosphate/pyridoxine phosphate phosphatase YigL) (PLP/PNP phosphatase YigL) (EC 3.1.3.74)	yigL b3826 JW5854	Escherichia coli (strain K12)	266	3.1.3.23; 3.1.3.74
+Q9CPT3	NANP_MOUSE	N-acylneuraminate-9-phosphatase (EC 3.1.3.29) (Haloacid dehalogenase-like hydrolase domain-containing protein 4) (N-acetylneuraminate-9-phosphate phosphatase) (Neu5Ac-9-Pase)	Nanp Hdhd4	Mus musculus (Mouse)	248	3.1.3.29
+P63228	GMHBB_ECOLI	D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase (EC 3.1.3.82) (D,D-heptose 1,7-bisphosphate phosphatase) (HBP phosphatase)	gmhB yaeD b0200 JW0196	Escherichia coli (strain K12)	191	3.1.3.82
+P0AGB0	SERB_ECOLI	Phosphoserine phosphatase (PSP) (PSPase) (EC 3.1.3.3) (O-phosphoserine phosphohydrolase)	serB b4388 JW4351	Escherichia coli (strain K12)	322	3.1.3.3
+P32662	GPH_ECOLI	Phosphoglycolate phosphatase (PGP) (PGPase) (EC 3.1.3.18)	gph yhfE b3385 JW3348	Escherichia coli (strain K12)	252	3.1.3.18
+P75792	SUPH_ECOLI	Sugar phosphatase YbiV (EC 3.1.3.23)	ybiV supH b0822 JW0806	Escherichia coli (strain K12)	271	3.1.3.23
+P75809	YBJI_ECOLI	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YbjI (EC 3.1.3.104)	ybjI b0844 JW5113	Escherichia coli (strain K12)	271	3.1.3.104
+P0ADP0	YIGB_ECOLI	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB (EC 3.1.3.104)	yigB b3812 JW3785	Escherichia coli (strain K12)	238	3.1.3.104
+Q9H0R4	HDHD2_HUMAN	Haloacid dehalogenase-like hydrolase domain-containing protein 2	HDHD2	Homo sapiens (Human)	259	
+P77247	HXPB_ECOLI	Hexitol phosphatase B (2-deoxyglucose-6-phosphate phosphatase) (EC 3.1.3.68) (Mannitol-1-phosphatase) (EC 3.1.3.22) (Sorbitol-6-phosphatase) (EC 3.1.3.50) (Sugar-phosphatase) (EC 3.1.3.23)	hxpB yniC b1727 JW1716	Escherichia coli (strain K12)	222	3.1.3.22; 3.1.3.23; 3.1.3.50; 3.1.3.68
+Q3UGR5	HDHD2_MOUSE	Haloacid dehalogenase-like hydrolase domain-containing protein 2	Hdhd2	Mus musculus (Mouse)	259	
+Q9LDD5	PYRP2_ARATH	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase, chloroplastic (AtPyrP2) (EC 3.1.3.104) (5-amino-6-ribitylamino-2,4(1H,3H)-pyrimidinedione 5'-phosphate phosphatase) (ARPP phosphatase) (Haloacid dehalogenase-like hydrolase domain-containing protein)	PYRP2 At4g11570 F25E4.190	Arabidopsis thaliana (Mouse-ear cress)	373	3.1.3.104
+Q9D5U5	HDHD1_MOUSE	Pseudouridine-5'-phosphatase (EC 3.1.3.96) (Haloacid dehalogenase-like hydrolase domain-containing protein 1) (Haloacid dehalogenase-like hydrolase domain-containing protein 1A) (Pseudouridine-5'-monophosphatase) (5'-PsiMPase)	Pudp Hdhd1 Hdhd1a	Mus musculus (Mouse)	234	3.1.3.96
+Q680K2	GPPL1_ARATH	Haloacid dehalogenase-like hydrolase domain-containing protein At4g39970 (EC 3.1.3.-)	At4g39970 T5J17.140	Arabidopsis thaliana (Mouse-ear cress)	316	3.1.3.-
+Q84MD8	FHYRK_ARATH	Bifunctional riboflavin kinase/FMN phosphatase [Includes: FMN phosphatase (EC 3.1.3.102) (FMN phosphohydrolase); Riboflavin kinase (EC 2.7.1.26) (Flavokinase)]	FHY FMN At4g21470 F18E5.90	Arabidopsis thaliana (Mouse-ear cress)	379	2.7.1.26; 3.1.3.102
+P77475	YQAB_ECOLI	Fructose-1-phosphate phosphatase YqaB (EC 3.1.3.-) (Fructose-1-phosphatase)	yqaB b2690 JW2665	Escherichia coli (strain K12)	188	3.1.3.-
+P19881	PGP_YEAST	Phosphoglycolate phosphatase (EC 3.1.3.18)	PHO13 YDL236W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	312	3.1.3.18
+P31467	YIEH_ECOLI	6-phosphogluconate phosphatase (EC 3.1.3.-)	yieH b3715 JW3693	Escherichia coli (strain K12)	221	3.1.3.-
+Q8RYE9	GPPL3_ARATH	Haloacid dehalogenase-like hydrolase domain-containing protein At2g33255 (EC 3.1.3.-)	At2g33255 F25I18.1 F4P9.2	Arabidopsis thaliana (Mouse-ear cress)	245	3.1.3.-
+P0AF24	NAGD_ECOLI	Ribonucleotide monophosphatase NagD (EC 3.1.3.5)	nagD b0675 JW0661	Escherichia coli (strain K12)	250	3.1.3.5
+O07565	NTDB_BACSU	Kanosamine-6-phosphate phosphatase (EC 3.1.3.92)	ntdB yhjK BSU10540	Bacillus subtilis (strain 168)	282	3.1.3.92
+F4JCB2	CPL5_ARATH	RNA polymerase II C-terminal domain phosphatase-like 5 (FCP-like 5) (EC 3.1.3.16) (Carboxyl-terminal phosphatase-like 5) (AtCPL5) (CTD phosphatase-like 5)	CPL5 At3g19600 MMB12.6 MMB12.7	Arabidopsis thaliana (Mouse-ear cress)	601	3.1.3.16
+Q9BXW7	HDHD5_HUMAN	Haloacid dehalogenase-like hydrolase domain-containing 5 (Cat eye syndrome critical region protein 5)	HDHD5 CECR5	Homo sapiens (Human)	423	
+P64636	YRFG_ECOLI	GMP/IMP nucleotidase YrfG (EC 3.1.3.5)	yrfG b3399 JW5865	Escherichia coli (strain K12)	222	3.1.3.5
+P94526	ARAL_BACSU	Sugar-phosphatase AraL (EC 3.1.3.23) (Arabinose operon protein AraL) (Phosphoserine phosphatase) (EC 3.1.3.3)	araL yseA BSU28770	Bacillus subtilis (strain 168)	272	3.1.3.23; 3.1.3.3
+P0DKC3	PGP1A_ARATH	Phosphoglycolate phosphatase 1A, chloroplastic (EC 3.1.3.18)	PGLP1A At5g36700 F24C7	Arabidopsis thaliana (Mouse-ear cress)	362	3.1.3.18
+A4QFW4	HDPA_CORGB	Dihydroxyacetone phosphatase (EC 3.1.3.-)	hdpA cgR_2128	Corynebacterium glutamicum (strain R)	275	3.1.3.-
+Q00472	PGP_SCHPO	Phosphoglycolate phosphatase (EC 3.1.3.18)	pho2 SPBC15D4.15	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	298	3.1.3.18
+Q8IBV0	PGP_PLAF7	Phosphoglycolate phosphatase (EC 3.1.3.18)	PGP PF3D7_0715000	Plasmodium falciparum (isolate 3D7)	322	3.1.3.18
+P77366	PGMB_ECOLI	Beta-phosphoglucomutase (Beta-PGM) (EC 5.4.2.6)	ycjU pgmB b1317 JW1310	Escherichia coli (strain K12)	219	5.4.2.6
+Q3ZCH9	HDHD2_BOVIN	Haloacid dehalogenase-like hydrolase domain-containing protein 2	HDHD2	Bos taurus (Bovine)	259	
+Q6AYR6	HDHD2_RAT	Haloacid dehalogenase-like hydrolase domain-containing protein 2	Hdhd2	Rattus norvegicus (Rat)	259	
+Q9CYW4	HDHD3_MOUSE	Haloacid dehalogenase-like hydrolase domain-containing protein 3	Hdhd3	Mus musculus (Mouse)	251	
+Q5R4B4	HDHD2_PONAB	Haloacid dehalogenase-like hydrolase domain-containing protein 2	HDHD2	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	259	
+Q8VZ10	SOQ1_ARATH	Protein SUPPRESSOR OF QUENCHING 1, chloroplastic (EC 3.1.3.-)	SOQ1 At1g56500 F13N6.21	Arabidopsis thaliana (Mouse-ear cress)	1055	3.1.3.-
+P94592	YWPJ_BACSU	Phosphatase YwpJ (EC 3.1.3.-)	ywpJ BSU36290	Bacillus subtilis (strain 168)	285	3.1.3.-
+O32125	YUTF_BACSU	5'-nucleotidase YutF (EC 3.1.3.5)	yutF BSU32290	Bacillus subtilis (strain 168)	256	3.1.3.5
+P0DKC4	PGP1B_ARATH	Phosphoglycolate phosphatase 1B, chloroplastic (EC 3.1.3.18)	PGLP1B At5g36790 F5H8.20	Arabidopsis thaliana (Mouse-ear cress)	362	3.1.3.18
+Q94529	GS1_DROME	Probable pseudouridine-5'-phosphatase (EC 3.1.3.96) (GS1-like protein) (Pseudouridine-5'-monophosphatase) (5'-PsiMPase)	Gs1l CG15441	Drosophila melanogaster (Fruit fly)	231	3.1.3.96
+Q91WM2	HDHD5_MOUSE	Haloacid dehalogenase-like hydrolase domain-containing 5 (Cat eye syndrome critical region protein 5 homolog)	Hdhd5 Cecr5	Mus musculus (Mouse)	419	
+Q86ZR7	YKD3A_YEAST	Probable pseudouridine-5'-phosphatase YKL033W-A (EC 3.1.3.96)	YKL033W-A	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	236	3.1.3.96
+A0A509AU59	PGP_PLABA	Phosphoglycolate phosphatase (PbPGP) (EC 3.1.3.18)	PGP PBANKA_1421300	Plasmodium berghei (strain Anka)	322	3.1.3.18
+Q4L4U2	NAGD_STAHJ	Acid sugar phosphatase (EC 3.1.3.-)	nagD SH2024	Staphylococcus haemolyticus (strain JCSC1435)	263	3.1.3.-
+Q5HHF6	NAGD_STAAC	Acid sugar phosphatase (EC 3.1.3.-)	nagD SACOL0931	Staphylococcus aureus (strain COL)	259	3.1.3.-
+Q99VE8	NAGD_STAAM	Acid sugar phosphatase (EC 3.1.3.-)	nagD SAV0929	Staphylococcus aureus (strain Mu50 / ATCC 700699)	259	3.1.3.-
+Q2YWR1	NAGD_STAAB	Acid sugar phosphatase (EC 3.1.3.-)	nagD SAB0795	Staphylococcus aureus (strain bovine RF122 / ET3-1)	259	3.1.3.-
+Q6GAZ7	NAGD_STAAS	Acid sugar phosphatase (EC 3.1.3.-)	nagD SAS0799	Staphylococcus aureus (strain MSSA476)	259	3.1.3.-
+Q6GIF9	NAGD_STAAR	Acid sugar phosphatase (EC 3.1.3.-)	nagD SAR0891	Staphylococcus aureus (strain MRSA252)	259	3.1.3.-
+Q7A6K4	NAGD_STAAN	Acid sugar phosphatase (EC 3.1.3.-)	nagD SA0790	Staphylococcus aureus (strain N315)	259	3.1.3.-
+Q7A1D4	NAGD_STAAW	Acid sugar phosphatase (EC 3.1.3.-)	nagD MW0811	Staphylococcus aureus (strain MW2)	259	3.1.3.-
+Q5HQN3	NAGD_STAEQ	Acid sugar phosphatase (EC 3.1.3.-)	nagD SERP0515	Staphylococcus epidermidis (strain ATCC 35984 / DSM 28319 / BCRC 17069 / CCUG 31568 / BM 3577 / RP62A)	259	3.1.3.-
+Q49W68	NAGD_STAS1	Acid sugar phosphatase (EC 3.1.3.-)	nagD SSP1846	Staphylococcus saprophyticus subsp. saprophyticus (strain ATCC 15305 / DSM 20229 / NCIMB 8711 / NCTC 7292 / S-41)	259	3.1.3.-
+Q2FW52	Y2465_STAA8	Uncharacterized hydrolase SAOUHSC_02465 (EC 3.-.-.-)	SAOUHSC_02465	Staphylococcus aureus (strain NCTC 8325 / PS 47)	271	3.-.-.-
+Q2FIE5	NAGD_STAA3	Acid sugar phosphatase (EC 3.1.3.-)	nagD SAUSA300_0833	Staphylococcus aureus (strain USA300)	259	3.1.3.-
+Q8CPW3	NAGD_STAES	Acid sugar phosphatase (EC 3.1.3.-)	nagD SE_0621	Staphylococcus epidermidis (strain ATCC 12228 / FDA PCI 1200)	259	3.1.3.-
+O14262	YFP5_SCHPO	Putative uncharacterized hydrolase C7D4.05 (EC 3.-.-.-)	SPAC7D4.05	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	228	3.-.-.-
+Q12486	YOR31_YEAST	Uncharacterized hydrolase YOR131C (EC 3.-.-.-)	YOR131C O3311 YOR3311c	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	218	3.-.-.-
+P0AF25	NAGD_ECO57	Ribonucleotide monophosphatase NagD (EC 3.1.3.5)	nagD Z0822 ECs0705	Escherichia coli O157:H7	250	3.1.3.5
+Q2FZX0	NAGD_STAA8	Acid sugar phosphatase (EC 3.1.3.-)	nagD SAOUHSC_00865	Staphylococcus aureus (strain NCTC 8325 / PS 47)	259	3.1.3.-
+Q8GAX4	YEDIN_STAAU	Uncharacterized hydrolase in edin-B 3'region (EC 3.-.-.-) (ORF8)		Staphylococcus aureus	271	3.-.-.-
+O59760	YJM7_SCHPO	Putative uncharacterized hydrolase C1020.07 (EC 3.-.-.-)	SPCC1020.07	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	236	3.-.-.-
+O14165	YDX1_SCHPO	Uncharacterized protein C4C5.01	SPAC4C5.01	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	249	
+Q5E9D6	HDHD3_BOVIN	Haloacid dehalogenase-like hydrolase domain-containing protein 3	HDHD3	Bos taurus (Bovine)	251	
+Q08CY5	HDHD3_XENTR	Haloacid dehalogenase-like hydrolase domain-containing protein 3	hdhd3	Xenopus tropicalis (Western clawed frog) (Silurana tropicalis)	189	
+Q5HZL9	HDHD3_XENLA	Haloacid dehalogenase-like hydrolase domain-containing protein 3	hdhd3	Xenopus laevis (African clawed frog)	244	
+Q5BJJ5	HDHD2_DANRE	Haloacid dehalogenase-like hydrolase domain-containing protein 2	hdhd2 zgc:110332	Danio rerio (Zebrafish) (Brachydanio rerio)	262	
+Q94915	REG2_DROME	Rhythmically expressed gene 2 protein (dREG-2)	Reg-2 CG3200	Drosophila melanogaster (Fruit fly)	260	
+Q7T012	HDHD3_DANRE	Haloacid dehalogenase-like hydrolase domain-containing protein 3	hdhd3 si:ch211-10e8.6 zgc:136363	Danio rerio (Zebrafish) (Brachydanio rerio)	242	
+Q7NB85	YBEY_MYCGA	Endoribonuclease YbeY (EC 3.1.-.-)	ybeY MYCGA3940 MGA_0019	Mycoplasmoides gallisepticum (strain R(low / passage 15 / clone 2)) (Mycoplasma gallisepticum)	164	3.1.-.-
+Q6GEM5	Y2294_STAAR	Uncharacterized hydrolase SAR2294 (EC 3.-.-.-)	SAR2294	Staphylococcus aureus (strain MRSA252)	271	3.-.-.-
+Q7A484	Y2005_STAAN	Uncharacterized hydrolase SA2005 (EC 3.-.-.-)	SA2005	Staphylococcus aureus (strain N315)	271	3.-.-.-
+Q5HE00	Y2196_STAAC	Uncharacterized hydrolase SACOL2196 (EC 3.-.-.-)	SACOL2196	Staphylococcus aureus (strain COL)	271	3.-.-.-
+Q99S65	Y2204_STAAM	Uncharacterized hydrolase SAV2204 (EC 3.-.-.-)	SAV2204	Staphylococcus aureus (strain Mu50 / ATCC 700699)	271	3.-.-.-
+Q8CU16	Y147_STAES	Uncharacterized hydrolase SE_0147 (EC 3.-.-.-)	SE_0147	Staphylococcus epidermidis (strain ATCC 12228 / FDA PCI 1200)	270	3.-.-.-
+Q2FES9	Y2163_STAA3	Uncharacterized hydrolase SAUSA300_2163 (EC 3.-.-.-)	SAUSA300_2163	Staphylococcus aureus (strain USA300)	271	3.-.-.-
+Q04223	YM14_YEAST	Uncharacterized protein YMR130W	YMR130W YM9553.06	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	302	
+P46351	YTH1_PANTH	Uncharacterized 45.4 kDa protein in thiaminase I 5'region		Paenibacillus thiaminolyticus (Bacillus thiaminolyticus)	413	

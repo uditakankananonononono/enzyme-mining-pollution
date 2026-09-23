@@ -1,0 +1,13 @@
+{
+  "reference_set": "data/reference_set.csv (UniProtKB REST API, fetched 2026-09-23; queries in code/assemble_refs.py header + raw_*.tsv)",
+  "negative_set": "data/negative_set.csv (UniProtKB REST API, fetched 2026-09-23)",
+  "uniprot_api": "https://rest.uniprot.org/uniprotkb/",
+  "mining_corpus": [
+    "https://www.ebi.ac.uk/metagenomics/api/v1/genome-catalogues/soil-v1-0 (8 MAGs)",
+    "https://www.ebi.ac.uk/metagenomics/api/v1/genome-catalogues/marine-sediment-v1-0 (8 MAGs)",
+    "data/corpus/mgnify/provenance.tsv lists accessions"
+  ],
+  "bg_corpora": "UniProtKB server-side searches (TrEMBL), seeded subsample 800/file: bg_dehalogenase_like, bg_rieske_oxy, bg_had_fold",
+  "decoy_proteomes": "E. coli K-12 UP000000625 + B. subtilis 168 UP000001570 reference proteomes (UniProt, reviewed)",
+  "fetched": "2026-09-23"
+}

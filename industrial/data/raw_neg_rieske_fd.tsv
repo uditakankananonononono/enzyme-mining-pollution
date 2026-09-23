@@ -1,0 +1,40 @@
+Entry	Entry Name	Protein names	Gene Names	Organism	Length	EC number
+P70752	MSMC_METHY	Methanesulfonate monooxygenase ferredoxin subunit (Methanesulfonic acid monooxygenase electron transfer subunit) (Methanesulfonic acid monooxygenase ferredoxin subunit) (MSA monooxygenase ferredoxin subunit) (MSAMO ferredoxin subunit) (EC 1.14.13.111)	msmC	Methylosulfonomonas methylovora	123	1.14.13.111
+Q8GI16	CARAC_METRE	Ferredoxin CarAc (Carbazole 1,9a-dioxygenase, ferredoxin component) (CARDO)	carAc	Metapseudomonas resinovorans (Pseudomonas resinovorans)	107	
+Q9ZR03	UCRIA_ARATH	Cytochrome b6-f complex iron-sulfur subunit, chloroplastic (EC 7.1.1.6) (Plastohydroquinone:plastocyanin oxidoreductase iron-sulfur protein) (Proton gradient regulation protein 1) (Rieske iron-sulfur protein) (ISP) (RISP)	petC PGR1 RISP At4g03280 F4C21.21	Arabidopsis thaliana (Mouse-ear cress)	229	7.1.1.6
+O52381	NAGAB_RALSP	Naphthalene 1,2-dioxygenase/salicylate 5-hydroxylase systems, ferredoxin component (NDO/S5H systems ferredoxin component) (Ferredoxin NagAb)	nagAb	Ralstonia sp	104	
+P0ABW0	HCAC_ECOLI	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC hcaA3 phdB yfhW b2540 JW2524	Escherichia coli (strain K12)	106	
+P08086	BNZC_PSEPU	Benzene 1,2-dioxygenase system ferredoxin subunit (P3 subunit)	bnzC	Pseudomonas putida (Arthrobacter siderocapsulatus)	107	
+P0A185	NDOA_PSEPU	Naphthalene 1,2-dioxygenase system, ferredoxin component	ndoA nahAB ndoC1	Pseudomonas putida (Arthrobacter siderocapsulatus)	104	
+Q00458	TMOC_ECTME	Toluene-4-monooxygenase system, ferredoxin component (T4MO) (Toluene-4-monooxygenase system protein C) (T4moC)	tmoC	Ectopseudomonas mendocina (Pseudomonas mendocina)	112	
+Q84BZ1	ANDAB_BURCE	Anthranilate 1,2-dioxygenase ferredoxin subunit	andAb	Burkholderia cepacia (Pseudomonas cepacia)	108	
+X5CFH4	CNDB1_RHIWD	Chloroacetanilide N-alkylformylase 1, ferredoxin component (Ferredoxin CndB1)	cndB1 HY78_26295	Rhizorhabdus wittichii (strain DC-6 / KACC 16600) (Sphingomonas wittichii)	105	
+P0C620	TODB_PSEPU	Toluene 1,2-dioxygenase system ferredoxin subunit	todB	Pseudomonas putida (Arthrobacter siderocapsulatus)	107	
+X5CWH9	CNDB2_RHIWD	Chloroacetanilide N-alkylformylase 2, ferredoxin component (Ferredoxin CndB2)	cndB2 HY78_13385	Rhizorhabdus wittichii (strain DC-6 / KACC 16600) (Sphingomonas wittichii)	105	
+Q07947	BEDB_PSEPU	Benzene 1,2-dioxygenase system ferredoxin subunit	bedB	Pseudomonas putida (Arthrobacter siderocapsulatus)	107	
+Q53124	BPHA3_RHOJR	Biphenyl 2,3-dioxygenase, ferredoxin component (Biphenyl 2,3-dioxygenase, electron transfer component BphA3) (Biphenyl dioxygenase system, ferredoxin component) (BDO, ferredoxin component)	bphA3 bphAc RHA1_ro08058	Rhodococcus jostii (strain RHA1)	107	
+P37332	BPHF_PARXL	Biphenyl dioxygenase system ferredoxin subunit	bphF Bxeno_C1128 Bxe_C1194	Paraburkholderia xenovorans (strain LB400)	109	
+A5W4F0	TODB_PSEP1	Toluene 1,2-dioxygenase system ferredoxin subunit	todB Pput_2879	Pseudomonas putida (strain ATCC 700007 / DSM 6899 / JCM 31910 / BCRC 17059 / LMG 24140 / F1)	107	
+Q9HH83	SDX_SULTO	Sulredoxin (Pink FeS protein)	sdx STK_07180	Sulfurisphaera tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) (Sulfolobus tokodaii)	109	
+Q9ZET5	XAMOC_XANVE	Alkene monooxygenase system, ferredoxin component (Alkene monooxygenase 13.3 kDa subunit)	xamoC aamC Xaut_4859	Xanthobacter versatilis	122	
+S5SC42	PDMB_SPHYB	N,N-dimethyl phenylurea N-demethylase subunit beta (EC 1.14.15.38)	pdmB TZ53_25070	Sphingobium sp. (strain YBL2)	176	1.14.15.38
+Q8TAC1	RFESD_HUMAN	Rieske domain-containing protein	RFESD	Homo sapiens (Human)	157	
+Q8K2P6	RFESD_MOUSE	Rieske domain-containing protein	Rfesd	Mus musculus (Mouse)	157	
+P42436	NASE_BACSU	Assimilatory nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	nasE nasBD nirD BSU03290	Bacillus subtilis (strain 168)	106	1.7.1.4
+Q52440	BPHA3_PSES1	Biphenyl dioxygenase ferredoxin subunit	bphA3	Pseudomonas sp. (strain KKS102)	109	
+O24678	TECA3_CUPXP	Chlorobenzene dioxygenase, ferredoxin component	tecA3	Cupriavidus sp. (strain PS12)	107	
+Q45694	DNTAB_BURSR	2,4-dinitrotoluene dioxygenase system, ferredoxin component	dntAb	Burkholderia sp. (strain RASC)	104	
+P0A186	NDOA_PSEU8	Naphthalene 1,2-dioxygenase system, ferredoxin component	doxA	Pseudomonas sp. (strain C18)	104	
+Q7N4V8	HCAC_PHOLL	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC plu2206	Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 / TT01) (Photorhabdus luminescens subsp. laumondii)	105	
+O07823	NDOA_PSEFL	Naphthalene 1,2-dioxygenase system, ferredoxin component	ndoA ndoC1	Pseudomonas fluorescens	87	
+Q51493	NDOA_PSEAI	Naphthalene 1,2-dioxygenase system, ferredoxin component	ndoA pahA2	Pseudomonas aeruginosa	104	
+A7ZPY3	HCAC_ECO24	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC EcE24377A_2825	Escherichia coli O139:H28 (strain E24377A / ETEC)	106	
+Q31XV0	HCAC_SHIBS	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC SBO_2564	Shigella boydii serotype 4 (strain Sb227)	106	
+P0ABW1	HCAC_ECO57	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC Z3811 ECs3406	Escherichia coli O157:H7	106	
+P0ABW2	HCAC_SHIFL	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC SF2587 S2759	Shigella flexneri	106	
+Q0T1X9	HCAC_SHIF8	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC SFV_2588	Shigella flexneri serotype 5b (strain 8401)	106	
+A8A346	HCAC_ECOHS	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC EcHS_A2692	Escherichia coli O9:H4 (strain HS)	106	
+Q3YZ13	HCAC_SHISS	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	hcaC SSON_2622	Shigella sonnei (strain Ss046)	106	
+Q51978	CMTAD_PSEPU	p-cumate 2,3-dioxygenase system, ferredoxin component	cmtAd CBP06_10585	Pseudomonas putida (Arthrobacter siderocapsulatus)	118	
+Q9HLT5	SDX_THEAC	Probable sulredoxin	sdx Ta0140	Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165)	111	
+Q97UV1	SDX_SACS2	Probable sulredoxin	sdx SSO2891	Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 / P2) (Sulfolobus solfataricus)	109	

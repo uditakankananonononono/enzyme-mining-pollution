@@ -1,0 +1,33 @@
+Entry	Entry Name	Protein names	Gene Names	Organism	Length	EC number
+P09917	LOX5_HUMAN	Polyunsaturated fatty acid 5-lipoxygenase (EC 1.13.11.-) (Arachidonate 5-lipoxygenase) (5-LO) (5-lipoxygenase) (EC 1.13.11.34)	ALOX5 LOG5	Homo sapiens (Human)	674	1.13.11.-; 1.13.11.34
+P48999	LOX5_MOUSE	Polyunsaturated fatty acid 5-lipoxygenase (EC 1.13.11.-) (Arachidonate 5-lipoxygenase) (5-LO) (5-lipoxygenase) (EC 1.13.11.34)	Alox5	Mus musculus (Mouse)	674	1.13.11.-; 1.13.11.34
+P12527	LOX5_RAT	Polyunsaturated fatty acid 5-lipoxygenase (EC 1.13.11.-) (Arachidonate 5-lipoxygenase) (5-LO) (5-lipoxygenase) (EC 1.13.11.34)	Alox5	Rattus norvegicus (Rat)	673	1.13.11.-; 1.13.11.34
+P51399	LOX5_MESAU	Polyunsaturated fatty acid 5-lipoxygenase (EC 1.13.11.-) (Arachidonate 5-lipoxygenase) (5-LO) (5-lipoxygenase) (EC 1.13.11.34)	ALOX5	Mesocricetus auratus (Golden hamster)	673	1.13.11.-; 1.13.11.34
+P86029	HQD2_CANAL	Catechol 1,2-dioxygenase (EC 1.13.11.1)	HQD2 CAALFM_C402230CA CaO19.12036 CaO19.4567	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	303	1.13.11.1
+Q8GR45	BPHC_GEOG3	Manganese-dependent 2,3-dihydroxybiphenyl 1,2-dioxygenase (EC 1.13.11.39) (Mn(II)-dependent 2,3-dihydroxybiphenyl 1,2-dioxygenase) (Mn(II)-dependent 23OHBP oxygenase)	bphC	Geobacillus genomosp. 3	315	1.13.11.39
+P17297	BPHC_PSES1	Biphenyl-2,3-diol 1,2-dioxygenase (EC 1.13.11.39) (2,3-dihydroxybiphenyl dioxygenase) (DHBD) (23OHBP oxygenase)	bphC	Pseudomonas sp. (strain KKS102)	293	1.13.11.39
+P08695	BPHC_METFU	Biphenyl-2,3-diol 1,2-dioxygenase (EC 1.13.11.39) (2,3-dihydroxybiphenyl dioxygenase) (DHBD) (23OHBP oxygenase)	bphC	Metapseudomonas furukawaii (Pseudomonas furukawaii)	303	1.13.11.39
+P47228	BPHC_PARXL	Biphenyl-2,3-diol 1,2-dioxygenase (EC 1.13.11.39) (2,3-dihydroxybiphenyl dioxygenase) (DHBD) (23OHBP oxygenase)	bphC Bxeno_C1125 Bxe_C1191	Paraburkholderia xenovorans (strain LB400)	298	1.13.11.39
+A2QAP8	HQDA_ASPNC	Intradiol ring-cleavage dioxygenase hqdA (EC 1.13.11.1) (EC 1.13.11.37)	hqdA An01g12310	Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513)	329	1.13.11.1; 1.13.11.37
+P07773	CATA_ACIAD	Catechol 1,2-dioxygenase (EC 1.13.11.1) (1,2-CTD)	catA ACIAD1442	Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1)	311	1.13.11.1
+O33948	CATA1_ACILW	Catechol 1,2-dioxygenase 1 (EC 1.13.11.1) (1,2-CTD 1) (CDI1)	catA1	Acinetobacter lwoffii	311	1.13.11.1
+P54721	CADE_BACSU	Catechol-2,3-dioxygenase (EC 1.13.11.2) (Catechol-induced ring cleavage extradiol dioxygenase)	catE yfiE BSU08240	Bacillus subtilis (strain 168)	285	1.13.11.2
+P47232	BPHC2_RHOGO	Biphenyl-2,3-diol 1,2-dioxygenase 2 (EC 1.13.11.39) (2,3-dihydroxybiphenyl dioxygenase II) (DHBD II) (23OHBP oxygenase II) (Biphenyl-2,3-diol 1,2-dioxygenase II)	bphC2	Rhodococcus globerulus	190	1.13.11.39
+P47233	BPHC3_RHOGO	Biphenyl-2,3-diol 1,2-dioxygenase 3 (EC 1.13.11.39) (2,3-dihydroxybiphenyl dioxygenase III) (DHBD III) (23OHBP oxygenase III) (Biphenyl-2,3-diol 1,2-dioxygenase III)	bphC3	Rhodococcus globerulus	190	1.13.11.39
+P11122	BPHC_SPHPI	Biphenyl-2,3-diol 1,2-dioxygenase (EC 1.13.11.39) (2,3-dihydroxybiphenyl dioxygenase) (DHBD) (23OHBP oxygenase)	bphC	Sphingomonas paucimobilis (Pseudomonas paucimobilis)	299	1.13.11.39
+P47231	BPHC1_RHOGO	Biphenyl-2,3-diol 1,2-dioxygenase 1 (EC 1.13.11.39) (2,3-dihydroxybiphenyl dioxygenase I) (DHBD I) (23OHBP oxygenase I) (Biphenyl-2,3-diol 1,2-dioxygenase I)	bphC1	Rhodococcus globerulus	291	1.13.11.39
+P17262	DMPB_PSEUF	Metapyrocatechase (MPC) (EC 1.13.11.2) (CatO2ase) (Catechol 2,3-dioxygenase) (C23O)	dmpB	Pseudomonas sp. (strain CF600)	307	1.13.11.2
+A7KS56	ONPC_ALCX2	Catechol 1,2-dioxygenase (EC 1.13.11.1)	onpC	Alcaligenes sp. (strain NyZ215)	300	1.13.11.1
+P06622	XYLE1_PSEPU	Metapyrocatechase (MPC) (EC 1.13.11.2) (CatO2ase) (Catechol 2,3-dioxygenase)	xylE	Pseudomonas putida (Arthrobacter siderocapsulatus)	307	1.13.11.2
+Q04285	XYLE2_PSEPU	Metapyrocatechase (MPC) (EC 1.13.11.2) (CatO2ase) (Catechol 2,3-dioxygenase)	xylE	Pseudomonas putida (Arthrobacter siderocapsulatus)	307	1.13.11.2
+O33950	CATA2_ACILW	Catechol 1,2-dioxygenase 2 (EC 1.13.11.1) (1,2-CTD 2) (CDI2)	catA2	Acinetobacter lwoffii	275	1.13.11.1
+Q43984	CATA_ACIGI	Catechol 1,2-dioxygenase (EC 1.13.11.1)	catA	Acinetobacter guillouiae (Acinetobacter genomosp. 11)	305	1.13.11.1
+P08127	NAHH_PSEPU	Metapyrocatechase (MPC) (EC 1.13.11.2) (CatO2ase) (Catechol 2,3-dioxygenase)	nahH	Pseudomonas putida (Arthrobacter siderocapsulatus)	307	1.13.11.2
+P27887	XYLE_PSEAI	Metapyrocatechase (MPC) (EC 1.13.11.2) (CatO2ase) (Catechol 2,3-dioxygenase)	bztE	Pseudomonas aeruginosa	307	1.13.11.2
+P17296	MPC2_CUPNE	Metapyrocatechase 2 (MPC) (EC 1.13.11.2) (CatO2ase) (Catechol 2,3-dioxygenase II)	mcpII	Cupriavidus necator (Alcaligenes eutrophus) (Ralstonia eutropha)	320	1.13.11.2
+Q53034	CATA_RHORH	Metapyrocatechase (MPC) (EC 1.13.11.2) (CatO2ase) (Catechol 2,3-dioxygenase)	catA	Rhodococcus rhodochrous	318	1.13.11.2
+P31003	PHEB_GEOSE	Metapyrocatechase (MPC) (EC 1.13.11.2) (CatO2ase) (Catechol 2,3-dioxygenase)	pheB	Geobacillus stearothermophilus (Bacillus stearothermophilus)	327	1.13.11.2
+P83715	CATA_ACICA	Catechol 1,2-dioxygenase (EC 1.13.11.1)		Acinetobacter calcoaceticus	14	1.13.11.1
+P31019	PHEB_PSEUE	Catechol 1,2-dioxygenase (EC 1.13.11.1) (1,2-CTD)	pheB	Pseudomonas sp. (strain EST1001)	302	1.13.11.1
+P81422	CATA_ACIRA	Catechol 1,2-dioxygenase (EC 1.13.11.1) (1,2-CTD)		Acinetobacter radioresistens	20	1.13.11.1
+P95607	CATA_RHOOP	Catechol 1,2-dioxygenase (EC 1.13.11.1) (1,2-CTD)	catA	Rhodococcus opacus (Nocardia opaca)	270	1.13.11.1

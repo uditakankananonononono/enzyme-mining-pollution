@@ -1,0 +1,52 @@
+Entry	Entry Name	Protein names	Gene Names	Organism	Length	EC number
+P0C618	BNZA_PSEPU	Benzene 1,2-dioxygenase subunit alpha (EC 1.14.12.3) (Benzene 1,2-dioxygenase P1 subunit) (Toluene 2,3-dioxygenase subunit alpha) (EC 1.14.12.11)	bnzA todC1	Pseudomonas putida (Arthrobacter siderocapsulatus)	450	1.14.12.11; 1.14.12.3
+P0A110	NDOB_PSEPU	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha) (ND subunit alpha) (NDO subunit alpha)	ndoB nahA3 nahAC ndoC2	Pseudomonas putida (Arthrobacter siderocapsulatus)	449	1.14.12.12
+A5W4F2	BNZA_PSEP1	Benzene 1,2-dioxygenase subunit alpha (EC 1.14.12.3) (Benzene 1,2-dioxygenase P1 subunit) (Toluene 2,3-dioxygenase subunit alpha) (EC 1.14.12.11)	bnzA todC1 Pput_2881	Pseudomonas putida (strain ATCC 700007 / DSM 6899 / JCM 31910 / BCRC 17059 / LMG 24140 / F1)	450	1.14.12.11; 1.14.12.3
+Q53122	BPHA1_RHOJR	Biphenyl 2,3-dioxygenase subunit alpha (EC 1.14.12.18) (Biphenyl dioxygenase system, oxygenase component subunit alpha) (BDO, oxygenase component subunit alpha) (Rieske dioxygenase) (Terminal oxygenase component of biphenyl dioxygenase, large subunit)	bphA1 bphAa RHA1_ro08060	Rhodococcus jostii (strain RHA1)	460	1.14.12.18
+P0C619	BNZB_PSEPU	Benzene 1,2-dioxygenase subunit beta (EC 1.14.12.3) (Benzene 1,2-dioxygenase P2 subunit) (Toluene 2,3-dioxygenase subunit beta) (EC 1.14.12.11)	bnzB todC2	Pseudomonas putida (Arthrobacter siderocapsulatus)	187	1.14.12.11; 1.14.12.3
+A5W4F1	BNZB_PSEP1	Benzene 1,2-dioxygenase subunit beta (EC 1.14.12.3) (Benzene 1,2-dioxygenase P2 subunit) (Toluene 2,3-dioxygenase subunit beta) (EC 1.14.12.11)	bnzB todC2 Pput_2880	Pseudomonas putida (strain ATCC 700007 / DSM 6899 / JCM 31910 / BCRC 17059 / LMG 24140 / F1)	187	1.14.12.11; 1.14.12.3
+P0A111	NDOB_PSEU8	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha) (ND subunit alpha) (NDO subunit alpha)	doxB	Pseudomonas sp. (strain C18)	449	1.14.12.12
+Q8G8B6	CARAA_METRE	Carbazole 1,9a-dioxygenase, terminal oxygenase component CarAa (CARDO) (EC 1.14.12.22)	carAa	Metapseudomonas resinovorans (Pseudomonas resinovorans)	384	1.14.12.22
+Q51494	NDOB_PSEAI	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha) (ND subunit alpha) (NDO subunit alpha)	ndoB pahA3	Pseudomonas aeruginosa	449	1.14.12.12
+O07824	NDOB_PSEFL	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha) (ND subunit alpha) (NDO subunit alpha)	ndoB ndoC2	Pseudomonas fluorescens	449	1.14.12.12
+Q52438	BPHA1_PSES1	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18) (Biphenyl 2,3-dioxygenase)	bphA1	Pseudomonas sp. (strain KKS102)	458	1.14.12.18
+Q52028	BPHA_METFU	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18) (Biphenyl 2,3-dioxygenase)	bphA bphA1	Metapseudomonas furukawaii (Pseudomonas furukawaii)	458	1.14.12.18
+Q47140	HCAF_ECOLI	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF digB hcaA2 hcaB phdC2 yfhV b2539 JW2523	Escherichia coli (strain K12)	172	1.14.12.19
+O52382	NDOB_RALSP	Naphthalene 1,2-dioxygenase system, large oxygenase component (EC 1.14.12.12) (ISP NAP) (Naphthalene 1,2-dioxygenase ISP alpha) (Naphthalene 1,2-dioxygenase subunit alpha) (ND subunit alpha) (NDO subunit alpha)	nagAc	Ralstonia sp	447	1.14.12.12
+P0ABR5	HCAE_ECOLI	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE digA hcaA hcaA1 phdC1 yfhU b2538 JW2522	Escherichia coli (strain K12)	453	1.14.12.19
+P37333	BPHA_PARXL	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18) (Biphenyl 2,3-dioxygenase)	bphA Bxeno_C1131 Bxe_C1197	Paraburkholderia xenovorans (strain LB400)	459	1.14.12.18
+P77650	HCAD_ECOLI	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin--NAD(+) reductase component (EC 1.18.1.3)	hcaD hcaA4 phdA yfhY b2542 JW2526	Escherichia coli (strain K12)	400	1.18.1.3
+D5IGG0	CARAA_SPHSX	Carbazole 1,9a-dioxygenase, terminal oxygenase component CarAa (CARDO) (EC 1.14.12.22)	carAa	Sphingomonas sp	378	1.14.12.22
+Q45695	DNTAC_BURSR	2,4-dinitrotoluene dioxygenase system, large oxygenase component (EC 1.14.12.24) (2,4-dinitrotoluene dioxygenase ISP alpha) (2,4-dinitrotoluene dioxygenase subunit alpha)	dntAc	Burkholderia sp. (strain RASC)	451	1.14.12.24
+Q07944	BEDC1_PSEPU	Benzene 1,2-dioxygenase subunit alpha (EC 1.14.12.3)	bedC1	Pseudomonas putida (Arthrobacter siderocapsulatus)	450	1.14.12.3
+Q07945	BEDC2_PSEPU	Benzene 1,2-dioxygenase subunit beta (EC 1.14.12.3)	bedC2	Pseudomonas putida (Arthrobacter siderocapsulatus)	187	1.14.12.3
+Q46373	BPHE_COMTE	Biphenyl dioxygenase subunit beta (EC 1.14.12.18) (Biphenyl 2,3-dioxygenase)	bphE	Comamonas testosteroni (Pseudomonas testosteroni)	186	1.14.12.18
+Q52439	BPHA2_PSES1	Biphenyl dioxygenase subunit beta (EC 1.14.12.18) (Biphenyl 2,3-dioxygenase)	bphA2	Pseudomonas sp. (strain KKS102)	193	1.14.12.18
+P37334	BPHE_PARXL	Biphenyl dioxygenase subunit beta (EC 1.14.12.18) (Biphenyl 2,3-dioxygenase)	bphE Bxeno_C1130 Bxe_C1196	Paraburkholderia xenovorans (strain LB400)	188	1.14.12.18
+Q46372	BPHA_COMTE	Biphenyl dioxygenase subunit alpha (EC 1.14.12.18) (Biphenyl 2,3-dioxygenase)	bphA	Comamonas testosteroni (Pseudomonas testosteroni)	457	1.14.12.18
+Q53123	BPHA2_RHOJR	Biphenyl 2,3-dioxygenase subunit beta (EC 1.14.12.18) (Biphenyl dioxygenase system, oxygenase component subunit beta) (BDO, oxygenase component subunit beta) (Terminal oxygenase component of biphenyl dioxygenase, small subunit)	bphA2 bphAb RHA1_ro08059	Rhodococcus jostii (strain RHA1)	187	1.14.12.18
+Q31XV2	HCAE_SHIBS	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE SBO_2562	Shigella boydii serotype 4 (strain Sb227)	453	1.14.12.19
+Q7N4W0	HCAE_PHOLL	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE plu2204	Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 / TT01) (Photorhabdus luminescens subsp. laumondii)	453	1.14.12.19
+Q83K39	HCAE_SHIFL	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE SF2585 S2757	Shigella flexneri	453	1.14.12.19
+P0ABR6	HCAE_ECO57	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE Z3809 ECs3404	Escherichia coli O157:H7	453	1.14.12.19
+Q0T1Y1	HCAE_SHIF8	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE SFV_2586	Shigella flexneri serotype 5b (strain 8401)	453	1.14.12.19
+A8A344	HCAE_ECOHS	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE EcHS_A2690	Escherichia coli O9:H4 (strain HS)	453	1.14.12.19
+Q3YZ15	HCAE_SHISS	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha (EC 1.14.12.19)	hcaE SSON_2620	Shigella sonnei (strain Ss046)	453	1.14.12.19
+A8A345	HCAF_ECOHS	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF EcHS_A2691	Escherichia coli O9:H4 (strain HS)	172	1.14.12.19
+B1IVT8	HCAF_ECOLC	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF EcolC_1138	Escherichia coli (strain ATCC 8739 / DSM 1576 / NBRC 3972 / NCIMB 8545 / WDCM 00012 / Crooks)	172	1.14.12.19
+C4ZXB4	HCAF_ECOBW	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF BWG_2303	Escherichia coli (strain K12 / MC4100 / BW2952)	172	1.14.12.19
+Q0T1Y0	HCAF_SHIF8	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF SFV_2587	Shigella flexneri serotype 5b (strain 8401)	172	1.14.12.19
+Q7N4V9	HCAF_PHOLL	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF plu2205	Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 / TT01) (Photorhabdus luminescens subsp. laumondii)	180	1.14.12.19
+B6I5B2	HCAF_ECOSE	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF ECSE_2826	Escherichia coli (strain SE11)	172	1.14.12.19
+B1LNJ5	HCAF_ECOSM	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF EcSMS35_2692	Escherichia coli (strain SMS-3-5 / SECEC)	172	1.14.12.19
+B5Z112	HCAF_ECO5E	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF ECH74115_3771	Escherichia coli O157:H7 (strain EC4115 / EHEC)	172	1.14.12.19
+B7NRI8	HCAF_ECO7I	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF ECIAI39_2740	Escherichia coli O7:K1 (strain IAI39 / ExPEC)	172	1.14.12.19
+Q3YZ14	HCAF_SHISS	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF SSON_2621	Shigella sonnei (strain Ss046)	172	1.14.12.19
+B1XB14	HCAF_ECODH	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF ECDH10B_2706	Escherichia coli (strain K12 / DH10B)	172	1.14.12.19
+B7M7P2	HCAF_ECO8A	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF ECIAI1_2591	Escherichia coli O8 (strain IAI1)	172	1.14.12.19
+A7ZPY2	HCAF_ECO24	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF EcE24377A_2824	Escherichia coli O139:H28 (strain E24377A / ETEC)	172	1.14.12.19
+B7LDD1	HCAF_ECO55	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF EC55989_2825	Escherichia coli (strain 55989 / EAEC)	172	1.14.12.19
+B7N6C6	HCAF_ECOLU	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF ECUMN_2859	Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC)	172	1.14.12.19
+Q31XV1	HCAF_SHIBS	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF SBO_2563	Shigella boydii serotype 4 (strain Sb227)	172	1.14.12.19
+Q83K38	HCAF_SHIFL	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF SF2586 S2758	Shigella flexneri	172	1.14.12.19
+Q8XA73	HCAF_ECO57	3-phenylpropionate/cinnamic acid dioxygenase subunit beta (EC 1.14.12.19)	hcaF Z3810 ECs3405	Escherichia coli O157:H7	172	1.14.12.19
