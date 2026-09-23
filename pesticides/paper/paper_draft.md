@@ -57,6 +57,24 @@ The mining platform is a profile-HMM ensemble built with pyhmmer 0.12.3 over pyf
 
 **v2 (structural split fix + frozen thresholds).** The initial stratified split placed families with fewer than three members partly in the held-out set, making their recall untestable; split v2 (seed 20260923) assigns all members of any stratum smaller than three to training, yielding 34 training and 13 held-out VERIFIED enzymes. Thresholds were frozen from training and tuning data only: the per-profile score threshold T is 0.8 times the minimum self-score of the profile's own training members, and the discrimination margin D is the second-largest (profile score minus negative-HMM score) delta observed on the tuning negatives, plus 10 bits.
 
+
+**Table 5. Split v2 composition (VERIFIED tier; families with fewer than three members are all-training by rule).**
+
+| family | training | held-out |
+|---|---|---|
+| OP:PTE | 6 | 2 |
+| OP:MPH | 2 | 1 |
+| OP:PON | 8 | 3 |
+| OP:OPAA | 2 | 0 |
+| OP:DFPASE | 1 | 0 |
+| OP:INSECT_CE | 2 | 1 |
+| PYR:BACT_CE | 6 | 2 |
+| PYR:INSECT_CE | 3 | 2 |
+| PYR:MAMM_CES | 4 | 2 |
+| **total** | **34** | **13** |
+
+OPAA and DFPASE contribute no held-out enzymes under the all-training rule; their recall is therefore untested, not failed - one more reason the canon-wide number must be read beside the per-fold number.
+
 **v3 (UniRef90 sub-family expansion).** Each training member was expanded through its UniRef90 cluster (UniProt REST API; up to 40 additional members per cluster), and sub-family profiles were built from the expanded sets.
 
 **v4 (self-expansion, final design).** Family profiles were expanded by recruiting unlabeled UniProtKB background sequences scoring above the family threshold T (capped at 60 recruits per family), unioned with the v3 sub-family profiles, plus two negative profiles: NEG:PLL over tuning PLL negatives and NEG:EST over tuning generic-esterase negatives. A sequence is called a candidate for a profile if its score passes both T and the margin D against its best negative-profile score. v4 is the frozen design used for all mining.
@@ -80,6 +98,19 @@ Most OP families recruit zero background sequences above their frozen threshold 
 ## 2.5 Corpora
 
 The validation corpus (24,240 sequences) comprises the *E. coli* K-12 and *B. subtilis* 168 proteomes as realistic decoys and UniProtKB background samples from amidohydrolase, esterase, and eukaryotic carboxylesterase families - the families most likely to collide with pesticide hydrolases. The mining corpus adds 66 metagenome-assembled-genome proteomes downloaded from MGnify (soil-v1-0, 33; maize-rhizosphere-v1-0, 19; barley-rhizosphere-v2-0, 8; tomato-rhizosphere-v1-0, 6; full catalogue accessions in pesticides/data/corpus/mgnify/provenance_expanded.tsv). For mining v2, any background sequence whose UniProt accession appears in the labeled (reference or negative) set was excluded, closing a canon-duplicate leak identified in mining v1. All data are public; all downloads are recorded with checksums in pesticides/data/MANIFEST.sha256.
+
+
+**Table 6. Validation and background corpus composition (byte-locked in data/MANIFEST.sha256).**
+
+| corpus | sequences | role |
+|---|---|---|
+| E. coli K-12 proteome | 4,403 | realistic decoy |
+| B. subtilis 168 proteome | 4,288 | realistic decoy |
+| bg_amidohydrolase | 5,500 | PTE-neighborhood background |
+| bg_esterase | 7,500 | esterase background |
+| bg_euk_ce | 2,500 | eukaryotic carboxylesterase background |
+
+Mining v2 excludes any background sequence whose UniProt accession is in the labeled set, so effective background counts in the v2 run are marginally lower than the byte-locked counts above; the excluded accessions are exactly the canon duplicates that mining v1 surfaced.
 
 ## 2.6 Compute and reproducibility
 
@@ -428,6 +459,12 @@ Representative candidate per cluster, sorted by discrimination margin. Full fiel
 | BG\|tr\|A0ACM7EAA2\|A0ACM7EAA2_TURTR | PYR:MAMM_CES | 777.4 | 777.4 | 781 | yes | 0.252 | NOVEL |
 | BG\|sp\|Q04791\|SASB_ANAPL | PYR:MAMM_CES | 773.2 | 773.2 | 557 | yes | 0.175 | NOVEL |
 | BG\|tr\|A0A1J6I6H9\|A0A1J6I6H9_9HYPH | UniRef90_H2ESQ9 | 423.0 | 423.0 | 201 | yes | 0.782 | HOMOLOG-OF-CANON |
+
+# Appendix D. Mining run summaries (verbatim from results/mining_summary.json and mining_summary_v2.json)
+
+**Mining v1 (8 barley-rhizosphere MAG proteomes; preserved, superseded by v2):** corpus 63,817 sequences (23,989 MAG proteins); 53 confident calls (bg_euk_ce.fasta: 52, bg_esterase.fasta: 1); 43 passing the novelty proxy (Jaccard < 0.5). In-run revalidation: positive control 34/34, held-out recall 9/13, precision 1.0. V1's flagged canon duplicates (Jaccard 1.0) motivated the labeled-set exclusion rule.
+
+**Mining v2 (66 MAG proteomes; current):** corpus 200,160 sequences (160,368 MAG proteins); 45 confident calls (bg_euk_ce.fasta: 44, bg_esterase.fasta: 1); 43 passing the novelty proxy. In-run revalidation: positive control 34/34, held-out recall 9/13, precision 1.0.
 
 # References
 
