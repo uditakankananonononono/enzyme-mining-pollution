@@ -1,0 +1,208 @@
+{
+  "design": "v3 UniRef90-expanded sub-family HMMs (training-only seeds; labeled accessions excluded from expansion); T=0.8*min(train own); D=2nd-max tune-neg delta+10",
+  "subfamilies": {
+    "UniRef90_Q5W503": {
+      "train_members": [
+        "A0A0B4J186",
+        "Q5W503"
+      ],
+      "n_expansion": 3
+    },
+    "UniRef90_H9ZVH5": {
+      "train_members": [
+        "A0A0H4ARG5",
+        "Q9ALW1"
+      ],
+      "n_expansion": 13
+    },
+    "SINGLETON:ACJ07038.1": {
+      "train_members": [
+        "ACJ07038.1"
+      ],
+      "n_expansion": 0
+    },
+    "SINGLETON:AND66123.1": {
+      "train_members": [
+        "AND66123.1"
+      ],
+      "n_expansion": 0
+    },
+    "UniRef90_C0LA90": {
+      "train_members": [
+        "C0LA90",
+        "D0VUS3"
+      ],
+      "n_expansion": 4
+    },
+    "UniRef90_Q5KZU5": {
+      "train_members": [
+        "D0VX06"
+      ],
+      "n_expansion": 14
+    },
+    "UniRef90_D5KX99": {
+      "train_members": [
+        "D5KXA4"
+      ],
+      "n_expansion": 15
+    },
+    "UniRef90_D9IV61": {
+      "train_members": [
+        "D9IV62"
+      ],
+      "n_expansion": 4
+    },
+    "UniRef90_G3V7J5": {
+      "train_members": [
+        "G3V7J5"
+      ],
+      "n_expansion": 0
+    },
+    "UniRef90_H2ESQ9": {
+      "train_members": [
+        "H2ESQ9"
+      ],
+      "n_expansion": 9
+    },
+    "UniRef90_H9ZVH4": {
+      "train_members": [
+        "H9ZVH4"
+      ],
+      "n_expansion": 1
+    },
+    "UniRef90_O00748": {
+      "train_members": [
+        "O00748"
+      ],
+      "n_expansion": 6
+    },
+    "UniRef90_P0A434": {
+      "train_members": [
+        "P0A433",
+        "P0A434"
+      ],
+      "n_expansion": 14
+    },
+    "UniRef90_P23141": {
+      "train_members": [
+        "P23141"
+      ],
+      "n_expansion": 39
+    },
+    "UniRef90_P27169": {
+      "train_members": [
+        "P27169"
+      ],
+      "n_expansion": 30
+    },
+    "UniRef90_P27170": {
+      "train_members": [
+        "P27170"
+      ],
+      "n_expansion": 2
+    },
+    "UniRef90_P35502": {
+      "train_members": [
+        "P35501",
+        "P35502"
+      ],
+      "n_expansion": 0
+    },
+    "UniRef90_P52430": {
+      "train_members": [
+        "P52430"
+      ],
+      "n_expansion": 6
+    },
+    "UniRef90_P77814": {
+      "train_members": [
+        "P77814"
+      ],
+      "n_expansion": 26
+    },
+    "UniRef90_Q15166": {
+      "train_members": [
+        "Q15166"
+      ],
+      "n_expansion": 31
+    },
+    "UniRef90_Q44238": {
+      "train_members": [
+        "Q44238"
+      ],
+      "n_expansion": 1
+    },
+    "UniRef90_Q52NW7": {
+      "train_members": [
+        "Q52NW7"
+      ],
+      "n_expansion": 2
+    },
+    "UniRef90_Q68FP2": {
+      "train_members": [
+        "Q62087",
+        "Q68FP2"
+      ],
+      "n_expansion": 4
+    },
+    "UniRef90_Q7SIG4": {
+      "train_members": [
+        "Q7SIG4"
+      ],
+      "n_expansion": 0
+    },
+    "UniRef90_Q8BK48": {
+      "train_members": [
+        "Q8BK48"
+      ],
+      "n_expansion": 4
+    },
+    "UniRef90_Q90952": {
+      "train_members": [
+        "Q90952"
+      ],
+      "n_expansion": 2
+    },
+    "UniRef90_Q91090": {
+      "train_members": [
+        "Q91090"
+      ],
+      "n_expansion": 7
+    },
+    "UniRef90_Q93LD7": {
+      "train_members": [
+        "Q93LD7"
+      ],
+      "n_expansion": 0
+    }
+  },
+  "positive_control": {
+    "pass": true,
+    "recovered": 34,
+    "of": 34,
+    "missing": []
+  },
+  "gate1_recall": {
+    "recall": 0.462,
+    "hits": 6,
+    "of": 13,
+    "pass": false,
+    "missed": [
+      "A4ZYB5",
+      "AFE88176.1",
+      "H2ER27",
+      "P16854",
+      "Q15165",
+      "Q8K3R0",
+      "Q8QZR3"
+    ]
+  },
+  "gate2_specificity": {
+    "precision": 1.0,
+    "fp_eval": [],
+    "auroc": 0.911,
+    "pass": true
+  },
+  "corpus_size": 24477,
+  "split_version": 2
+}

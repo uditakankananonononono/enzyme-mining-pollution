@@ -1,0 +1,40 @@
+{
+  "design": "v4 union of (family HMMs self-expanded via unlabeled bg hits >= family T, cap 60) + (v3 UniRef90 sub-family HMMs) + NEG HMMs; thresholds frozen by v2/v3 rules",
+  "family_expansion_counts": {
+    "OP:PTE": 0,
+    "OP:MPH": 0,
+    "PYR:BACT_CE": 1,
+    "PYR:INSECT_CE": 4,
+    "PYR:MAMM_CES": 38,
+    "OP:PON": 0,
+    "OP:INSECT_CE": 2,
+    "OP:OPAA": 0,
+    "OP:DFPASE": 0
+  },
+  "positive_control": {
+    "pass": true,
+    "recovered": 34,
+    "of": 34,
+    "missing": []
+  },
+  "gate1_recall": {
+    "recall": 0.692,
+    "hits": 9,
+    "of": 13,
+    "pass": false,
+    "missed": [
+      "A4ZYB5",
+      "AFE88176.1",
+      "H2ER27",
+      "P16854"
+    ]
+  },
+  "gate2_specificity": {
+    "precision": 1.0,
+    "fp_eval": [],
+    "auroc": 0.906,
+    "pass": true
+  },
+  "corpus_size": 39740,
+  "split_version": 2
+}

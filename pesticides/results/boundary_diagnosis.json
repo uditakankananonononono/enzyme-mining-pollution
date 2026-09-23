@@ -1,0 +1,95 @@
+{
+  "jaccard_vs_train": [
+    {
+      "acc": "A4ZYB5",
+      "family": "PTE",
+      "status": "MISSED",
+      "jaccard": 0.066,
+      "nearest_train": "A0A0B4J186"
+    },
+    {
+      "acc": "AFE88176.1",
+      "family": "BACT_CE",
+      "status": "MISSED",
+      "jaccard": 0.067,
+      "nearest_train": "Q9ALW1"
+    },
+    {
+      "acc": "B2ZF61",
+      "family": "PTE",
+      "status": "recovered",
+      "jaccard": 0.931,
+      "nearest_train": "Q5W503"
+    },
+    {
+      "acc": "D5KXB9",
+      "family": "INSECT_CE",
+      "status": "recovered",
+      "jaccard": 0.554,
+      "nearest_train": "H9ZVH4"
+    },
+    {
+      "acc": "D9IV61",
+      "family": "INSECT_CE",
+      "status": "recovered",
+      "jaccard": 0.879,
+      "nearest_train": "D9IV62"
+    },
+    {
+      "acc": "H2ER27",
+      "family": "BACT_CE",
+      "status": "MISSED",
+      "jaccard": 0.051,
+      "nearest_train": "Q93LD7"
+    },
+    {
+      "acc": "H9ZVH5",
+      "family": "MPH",
+      "status": "recovered",
+      "jaccard": 1.0,
+      "nearest_train": "A0A0H4ARG5"
+    },
+    {
+      "acc": "P16854",
+      "family": "INSECT_CE",
+      "status": "MISSED",
+      "jaccard": 0.081,
+      "nearest_train": "D5KXA4"
+    },
+    {
+      "acc": "P55159",
+      "family": "PON",
+      "status": "recovered",
+      "jaccard": 0.726,
+      "nearest_train": "P52430"
+    },
+    {
+      "acc": "Q15165",
+      "family": "PON",
+      "status": "recovered",
+      "jaccard": 0.277,
+      "nearest_train": "Q91090"
+    },
+    {
+      "acc": "Q8K3R0",
+      "family": "MAMM_CES",
+      "status": "recovered",
+      "jaccard": 0.366,
+      "nearest_train": "Q8BK48"
+    },
+    {
+      "acc": "Q8QZR3",
+      "family": "MAMM_CES",
+      "status": "recovered",
+      "jaccard": 0.369,
+      "nearest_train": "Q8BK48"
+    },
+    {
+      "acc": "Q9BGN0",
+      "family": "PON",
+      "status": "recovered",
+      "jaccard": 0.446,
+      "nearest_train": "Q15166"
+    }
+  ]
+}
